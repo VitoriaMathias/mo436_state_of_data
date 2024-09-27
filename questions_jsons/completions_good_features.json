@@ -1,0 +1,889 @@
+{
+    "P1_a": {
+        "question": "Idade",
+        "alternativas": {
+            "P1_a_1": "Faixa idade"
+        },
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P1_a: Idade\n\nA pergunta/resposta P1_a: Idade pode não ser vantajosa no treino do modelo de predição de faixa salarial. Embora a idade seja um fator que pode influenciar a remuneração, ela não é diretamente relacionada às habilidades e informações da pessoa ou vaga.\n\nRisco de viés discriminativo: Sim, a pergunta/resposta P1_a: Idade pode gerar um viés discriminativo indesejado no modelo, pois a idade pode ser um fator de discriminação em relação a gênero, raça, etc.\n\nRazão: A idade pode ser um fator que não é controlável ou justificável em relação à remuneração, e pode levar a resultados injustos ou discriminatórios.\n\nConclusão: A pergunta/resposta P1_a: Idade não é adequada para o treino do modelo de predição de faixa salarial. //NO"
+    },
+    "P1_b": {
+        "question": "Genero",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta:\n\nA pergunta P1_b: Genero pode não ser vantajosa para o modelo de predição de faixa salarial. Embora o gênero possa ser um fator relevante para a remuneração, é um atributo protegido por lei e pode gerar viés discriminativo indesejado no modelo. Além disso, o gênero não é diretamente relacionado à habilidade ou performance profissional, o que é o objetivo do modelo.\n\nRazão: A pergunta P1_b: Genero pode levar a uma discriminação baseada no gênero, o que é inaceitável. Além disso, o modelo não pode aprender a relação entre o gênero e a remuneração de forma justa e equitativa.\n\n//NO"
+    },
+    "P1_c": {
+        "question": "Cor/raca/etnia",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "A pergunta/resposta \"P1_c: Cor/raca/etnia\" não é vantajosa para o treino do modelo de predição de faixa salarial. Isso porque a cor, raça ou etnia não tem relação direta com a habilidade ou performance profissional, e pode gerar um viés discriminativo indesejado no modelo.\n\nA inclusão dessa variável pode levar a preconceitos e estereótipos, e não é ético ou justo considerar essas características para determinar a remuneração de alguém. Além disso, a cor, raça ou etnia não é uma característica relevante para a formação de um modelo de previsão de faixa salarial.\n\n//NO"
+    },
+    "P1_d": {
+        "question": "PCD",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "A pergunta/resposta \"PCD\" (Pessoal de Conhecimento e Desenvolvimento) não é uma variável explícita que possa ser utilizada para prever a faixa salarial. Ela parece ser uma categorização de profissionais, mas não fornece informações específicas sobre as habilidades ou características individuais que possam influenciar a remuneração.\n\n//NO"
+    },
+    "P1_e": {
+        "question": "experiencia_profissional_prejudicada",
+        "alternativas": {
+            "P1_e_1": "Não acredito que minha experiência profissional seja afetada",
+            "P1_e_2": "Experiencia prejudicada devido a minha Cor Raça Etnia",
+            "P1_e_3": "Experiencia prejudicada devido a minha identidade de gênero",
+            "P1_e_4": "Experiencia prejudicada devido ao fato de ser PCD"
+        },
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta:\n\nA pergunta P1_e: experiência_profissional_prejudicada é relevante para o modelo de predição de faixa salarial, pois pode indicar se a experiência profissional de uma pessoa foi afetada por fatores externos, como discriminação. Isso pode influenciar na remuneração da pessoa.\n\nRisco de viés discriminativo: Sim, há um risco de viés discriminativo, pois as respostas P1_e_2, P1_e_3 e P1_e_4 podem ser influenciadas por fatores pessoais e culturais que podem não ser representativos da população em geral. Isso pode levar a resultados desequilibrados e não representativos do modelo.\n\nMotivo: A pergunta/resposta pode não ser adequada, pois pode gerar viés discriminativo e não é uma métrica objetiva da experiência profissional.\n\nResumo: A pergunta/resposta não é vantajosa para o modelo de predição de faixa salarial. //NO"
+    },
+    "P1_f": {
+        "question": "aspectos_prejudicados",
+        "alternativas": {
+            "P1_f_1": "Quantidade de oportunidades de emprego/vagas recebidas",
+            "P1_f_2": "Senioridade das vagas recebidas em relação à sua experiência",
+            "P1_f_3": "Aprovação em processos seletivos/entrevistas",
+            "P1_f_4": "Oportunidades de progressão de carreira",
+            "P1_f_5": "Velocidade de progressão de carreira",
+            "P1_f_6": "Nível de cobrança no trabalho/Stress no trabalho",
+            "P1_f_7": "Atenção dada diante das minhas opiniões e ideias",
+            "P1_f_8": "Relação com outros membros da empresa, em momentos de trabalho",
+            "P1_f_9": "Relação com outros membros da empresa, em momentos de integração e outros momentos fora do trabalho"
+        },
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P1_f: aspectos_prejudicados\n\nA pergunta P1_f: aspectos_prejudicados é uma pergunta aberta que pede para os respondentes fornecer informações sobre os aspectos prejudicados em seu trabalho. Embora seja interessante saber sobre as experiências negativas dos profissionais, essa pergunta não é diretamente relevante para a previsão da faixa salarial baseada em habilidades e informações de uma certa pessoa ou vaga.\n\nA pergunta pode gerar viés discriminativo indesejado, pois os respondentes podem fornecer informações subjetivas e pessoais que não são relevantes para a previsão da faixa salarial.\n\n//NO"
+    },
+    "P1_g": {
+        "question": "vive_no_brasil",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "A pergunta \"vive_no_brasil\" (P1_g) é uma variável binária que indica se a pessoa vive no Brasil ou não.\n\nAnálise: Essa variável não é diretamente relacionada à habilidade ou às informações da pessoa para um cargo específico. Portanto, não é vantajosa para o treino do modelo de predição de faixa salarial.\n\nRisco de viés discriminativo: Sim, essa variável pode gerar um viés discriminativo, pois pessoas que vivem no Brasil podem ter acesso a oportunidades de emprego e formação mais facilmente do que aquelas que vivem fora do país.\n\nResumo: Essa variável não é relevante para o modelo e pode gerar um viés discriminativo. //NO"
+    },
+    "P1_i": {
+        "question": "Estado onde mora",
+        "alternativas": {
+            "P1_i_1": "uf onde mora",
+            "P1_i_2": "Regiao onde mora"
+        },
+        "is_good_feature": false,
+        "answer": "Análise: A pergunta/resposta \"P1_i: Estado onde mora\" pode não ser vantajosa para o modelo de predição de faixa salarial. Embora o estado onde mora possa influenciar a remuneração, é um fator mais relacionado à qualidade de vida e ao custo de vida do que à habilidade ou ao valor do trabalho.\n\nRisco de viés discriminativo: Sim, há um risco de viés discriminativo, pois estados com menor renda média podem ter uma menor remuneração média, o que pode levar a uma discriminação contra trabalhadores desses estados.\n\nConclusão: A pergunta/resposta \"P1_i: Estado onde mora\" não é adequada para o modelo de predição de faixa salarial. //NO"
+    },
+    "P1_j": {
+        "question": "Mudou de Estado?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise: A pergunta \"Mudou de Estado?\" não parece ter uma relação direta com a remuneração de cargos. A mudança de estado pode ser influenciada por fatores pessoais, familiares ou profissionais, mas não é um indicador claro de habilidades ou informações relevantes para a remuneração.\n\nRisco de viés discriminatório: Sim, há um risco de viés discriminatório, pois a pergunta pode ser influenciada por fatores como gênero, idade, raça, etc., que podem não estar relacionados à remuneração.\n\nConclusão: A pergunta \"Mudou de Estado?\" não é vantajosa para o treino do modelo de predição de faixa salarial. A pergunta não tem uma relação direta com a remuneração e pode gerar um viés discriminatório indesejado. //NO"
+    },
+    "P1_k": {
+        "question": "Regiao de origem",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P1_k: Regiao de origem:\n\nA pergunta/resposta P1_k: Regiao de origem pode não ser vantajosa no treino do modelo. Embora a região de origem possa ser uma característica relevante para a formação de um modelo de previsão de faixa salarial, ela pode gerar um viés discriminativo indesejado. Isso porque a região de origem pode estar relacionada a fatores como o nível de desenvolvimento econômico, a qualidade da educação e a disponibilidade de oportunidades de emprego, o que pode influenciar a remuneração de forma desigual.\n\nAlém disso, a região de origem pode ser uma característica que não esteja diretamente relacionada à habilidade ou ao desempenho do indivíduo, o que pode levar a um modelo que não seja capaz de prever a remuneração com precisão.\n\nPortanto, a pergunta/resposta P1_k: Regiao de origem não é adequada para o treino do modelo. //NO"
+    },
+    "P1_l": {
+        "question": "Nivel de Ensino",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta \"Nivel de Ensino\" (P1_l) pode ser vantajosa no treino do modelo de predição de faixa salarial. Isso porque o nível de ensino pode ser um indicador importante da formação e habilidades de uma pessoa, o que pode influenciar sua remuneração.\n\nNo entanto, é importante considerar que o nível de ensino pode gerar um viés discriminativo se não for tratado adequadamente. Por exemplo, se o modelo priorizar pessoas com ensino superior em relação às que têm ensino médio ou fundamental, isso pode ser considerado discriminatório.\n\nAlém disso, é importante notar que o nível de ensino não é o único fator que influencia a remuneração e que outros fatores, como a experiência, habilidades e performance, também devem ser considerados.\n\nEm resumo, a pergunta \"Nivel de Ensino\" pode ser vantajosa no treino do modelo, desde que seja tratada de forma a evitar viés discriminatório e considerar outros fatores importantes. //YES"
+    },
+    "P1_m": {
+        "question": "Área de Formação",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta \"Área de Formação\" (P1_m) pode ser relevante para o modelo de predição de faixa salarial, pois pode fornecer informações sobre a formação acadêmica e profissional da pessoa, o que pode influenciar sua remuneração.\n\nAnálise: A pergunta pode ser vantajosa se considerarmos que a formação acadêmica e profissional podem ser indicadores de habilidades e conhecimentos específicos que são valorizados no mercado de trabalho.\n\nRisco de viés discriminativo: Não há risco de viés discriminativo direto, pois a pergunta se refere à área de formação acadêmica e profissional, que é um fator objetivo.\n\nConclusão: A pergunta \"Área de Formação\" pode ser uma característica útil para o modelo de predição de faixa salarial, pois pode fornecer informações sobre a formação acadêmica e profissional da pessoa. //YES"
+    },
+    "P2_a": {
+        "question": "Qual sua situação atual de trabalho?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "A pergunta P2_a \"Qual sua situação atual de trabalho?\" não é vantajosa para o treino do modelo de predição de faixa salarial. Isso porque a situação atual de trabalho não é um indicador direto da habilidade ou da remuneração esperada. Além disso, essa pergunta pode gerar viés discriminativo, pois pessoas em situações diferentes de trabalho podem ter habilidades e experiências diferentes, mas isso não é diretamente relacionado à remuneração.\n\n//NO"
+    },
+    "P2_b": {
+        "question": "Setor",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta P2_b: Setor pode ser vantajosa no treino do modelo, pois permite classificar as profissões em categorias mais específicas e pode ajudar a identificar padrões de remuneração dentro de cada setor. Além disso, pode ser útil para entender como a remuneração varia entre setores diferentes.\n\nNo entanto, é importante considerar que a pergunta P2_b: Setor pode gerar um viés discriminativo se os setores mais lucrativos tiverem mais representação em termos de profissões e remuneração, o que pode levar a uma overestima da remuneração média em setores mais ricos.\n\nEm resumo, a pergunta P2_b: Setor pode ser vantajosa se for tratada com cuidado para evitar viés discriminativo. //YES"
+    },
+    "P2_c": {
+        "question": "Numero de Funcionarios",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "A pergunta P2_c: Numero de Funcionarios pode não ser vantajosa para o modelo de predição de faixa salarial. Isso porque o número de funcionários em uma empresa não é diretamente relacionado à remuneração de um cargo específico. Além disso, essa variável pode gerar um viés discriminativo, pois empresas maiores podem ter uma estrutura organizacional mais complexa e, portanto, uma remuneração mais alta, independentemente das habilidades e responsabilidades do cargo.\n\n//NO"
+    },
+    "P2_d": {
+        "question": "Gestor?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta/resposta \"P2_d: Gestor?\" é uma característica categórica que indica se a pessoa é um gestor ou não. Essa característica pode ser vantajosa no treino do modelo, pois os gestores podem ter diferentes habilidades e responsabilidades que afetam sua remuneração.\n\nA pergunta/resposta não parece gerar viés discriminativo indesejado, pois não há razão para que a função de gestor seja relacionada a características pessoais ou demográficas indesejáveis.\n\nRazão: Essa característica pode ajudar a identificar padrões de remuneração em diferentes níveis de gestão e habilidades.\n\n//YES"
+    },
+    "P2_e": {
+        "question": "Cargo como Gestor",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta/resposta \"P2_e: Cargo como Gestor\" pode ser vantajosa no treino do modelo, pois o cargo pode ser um indicador importante da responsabilidade e complexidade do trabalho, o que pode influenciar na remuneração. Além disso, a presença de gestores em uma empresa pode indicar uma estrutura organizacional mais complexa, o que pode justificar uma remuneração mais alta.\n\nNo entanto, é importante considerar que a pergunta/resposta pode gerar um viés discriminativo, pois pode ser mais comum encontrar gestores em empresas maiores e mais estruturadas, o que pode influenciar na remuneração de forma desigual. Além disso, a definição de \"Gestor\" pode variar entre empresas e pode não ser um indicador preciso da responsabilidade do trabalho.\n\nEm resumo, a pergunta/resposta \"P2_e: Cargo como Gestor\" pode ser vantajosa no treino do modelo, mas é importante considerar o risco de viés discriminativo e a necessidade de normalizar e balancear os dados para evitar esse problema. //YES"
+    },
+    "P2_f": {
+        "question": "Cargo Atual",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P2_f: Cargo Atual:\n\nA pergunta/resposta P2_f: Cargo Atual pode ser vantajosa no treino do modelo, pois o cargo atual da pessoa pode ser um indicador importante da sua experiência e responsabilidade, o que pode influenciar na sua remuneração. Além disso, o cargo atual pode ser um fator que os empregadores consideram ao definir a remuneração de um funcionário.\n\nNo entanto, é importante considerar que o cargo atual pode gerar um viés discriminativo, pois pode ser mais fácil para pessoas com cargos mais altos ou mais bem remunerados ter acesso a oportunidades de trabalho mais bem remuneradas. Isso pode levar a um modelo que favorece pessoas com cargos mais altos ou mais bem remunerados, independentemente de suas habilidades e experiências.\n\nEm resumo, a pergunta/resposta P2_f: Cargo Atual pode ser vantajosa no treino do modelo, mas é importante considerar o risco de viés discriminativo e tomar medidas para minimizá-lo. //YES"
+    },
+    "P2_g": {
+        "question": "Nivel",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta P2_g: Nivel é a habilidade do profissional em um determinado nível (júnior, pleno, sênior, etc.). Essa pergunta/resposta é vantajosa para o modelo de predição de faixa salarial porque:\n\n* Ela fornece informações sobre a experiência e a maturidade do profissional, o que pode influenciar na remuneração.\n* Pode ajudar a identificar padrões de remuneração em diferentes níveis de habilidade.\n\nNo entanto, é importante considerar que essa pergunta/resposta pode gerar um viés discriminativo se não for tratada corretamente, pois pode ser mais fácil para profissionais mais experientes obter uma remuneração mais alta, independentemente de suas habilidades específicas.\n\n//YES"
+    },
+    "P2_h": {
+        "question": "Faixa salarial",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Excelente escolha! A pergunta/resposta P2_h: Faixa salarial é extremamente relevante para o modelo de previsão de faixa salarial. Isso porque é a variável que estamos tentando prever.\n\nAnálise: A pergunta/resposta P2_h é uma variável target, ou seja, é a variável que estamos tentando prever. Ela é uma métrica importante para avaliar o desempenho do modelo.\n\nViés discriminativo: Não há risco de viés discriminativo, pois a faixa salarial é uma métrica objetiva e não está relacionada a características pessoais ou demográficas.\n\nRaciocínio: A pergunta/resposta P2_h é fundamental para o modelo, pois é a variável que estamos tentando prever. Ela é uma métrica importante para avaliar o desempenho do modelo e não há risco de viés discriminativo.\n\n//YES"
+    },
+    "P2_i": {
+        "question": "Quanto tempo de experiência na área de dados você tem?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta/resposta P2_i \"Quanto tempo de experiência na área de dados você tem?\" é vantajosa para o modelo de predição de faixa salarial. Isso porque a experiência é um fator importante para determinar a remuneração de um profissional, e essa pergunta permite capturar essa informação.\n\nA pergunta não parece gerar viés discriminativo indesejado, pois a experiência é um fator neutro e não está relacionado a características pessoais ou grupos sociais.\n\nRazão: A experiência é um indicador de habilidades e conhecimentos adquiridos, o que pode influenciar a remuneração. Além disso, essa pergunta é objetiva e não está relacionada a características pessoais ou grupos sociais.\n\n//YES"
+    },
+    "P2_j": {
+        "question": "Quanto tempo de experiência na área de TI/Engenharia de Software você teve antes de começar a trabalhar na área de dados?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise: Essa pergunta/resposta pode ser vantajosa pois fornece informações sobre a experiência prévia do indivíduo em áreas relacionadas ao trabalho com dados, o que pode influenciar na sua habilidade e conhecimento em lidar com dados. Além disso, essa informação pode ajudar a prever a remuneração baseada na experiência e habilidades do indivíduo.\n\nRisco de viés discriminativo: Não há risco de viés discriminativo, pois a pergunta/resposta se refere a experiência profissional e não a características pessoais ou demográficas.\n\nRazão: Essa pergunta/resposta é relevante para o modelo de previsão de remuneração pois fornece informações sobre a experiência do indivíduo em áreas relacionadas ao trabalho com dados, o que pode influenciar na sua habilidade e conhecimento em lidar com dados.\n\n//YES"
+    },
+    "P2_k": {
+        "question": "Você está satisfeito na sua empresa atual?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "A pergunta \"P2_k: Você está satisfeito na sua empresa atual?\" não é vantajosa para o modelo de predição de faixa salarial. Isso porque a satisfação com a empresa atual não está diretamente relacionada à habilidade ou às informações da pessoa para um cargo específico, o que é o objetivo do modelo.\n\nAlém disso, essa pergunta pode gerar um viés discriminativo, pois pessoas que estão satisfeitas com a empresa atual podem ter uma visão mais positiva da empresa e, consequentemente, da remuneração, o que não é um fator relevante para a predição da faixa salarial.\n\n//NO"
+    },
+    "P2_l": {
+        "question": "Qual o principal motivo da sua insatisfação com a empresa atual?",
+        "alternativas": {
+            "P2_l_1": "Falta de oportunidade de crescimento no emprego atual",
+            "P2_l_2": "Salário atual não corresponde ao mercado",
+            "P2_l_3": "Não tenho uma boa relação com meu líder/gestor",
+            "P2_l_4": "Gostaria de trabalhar em em outra área de atuação",
+            "P2_l_5": "Gostaria de receber mais benefícios",
+            "P2_l_6": "O clima de trabalho/ambiente não é bom",
+            "P2_l_7": "Falta de maturidade analítica na empresa"
+        },
+        "is_good_feature": true,
+        "answer": "Análise: A pergunta P2_l: Qual o principal motivo da sua insatisfação com a empresa atual? é relevante para o modelo de predição de faixa salarial pois pode fornecer informações sobre as razões pelas quais uma pessoa está insatisfeita com sua atual empresa, o que pode influenciar sua expectativa de remuneração futura.\n\nRisco de viés discriminatório: A pergunta não parece gerar um viés discriminatório indesejado, pois não se refere a características pessoais ou demográficas da pessoa.\n\nRaciocínio: A pergunta P2_l pode ajudar a entender melhor as necessidades e expectativas de uma pessoa em relação ao seu emprego, o que pode ser útil para prever sua faixa salarial futura.\n\n//YES"
+    },
+    "P2_m": {
+        "question": "Você participou de entrevistas de emprego nos últimos 6 meses?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P2_m: \"Você participou de entrevistas de emprego nos últimos 6 meses?\"\n\nEssa pergunta/resposta não é diretamente relacionada à habilidade ou às informações da pessoa ou vaga, mas sim à experiência recente de busca de emprego. Embora possa ser interessante como um indicador de motivação ou habilidade em encontrar oportunidades, não é um fator que diretamente influencie a remuneração.\n\nAlém disso, essa pergunta pode gerar um viés discriminativo, pois pessoas que não tiveram sucesso em encontrar emprego nos últimos 6 meses podem ser menos propensas a ter uma remuneração mais alta, independentemente de suas habilidades.\n\nPortanto, não considero essa pergunta/resposta vantajosa para o treino do modelo. //NO"
+    },
+    "P2_n": {
+        "question": "Você pretende mudar de emprego nos próximos 6 meses?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P2_n: \"Você pretende mudar de emprego nos próximos 6 meses?\"\n\nEssa pergunta não é diretamente relacionada à habilidade ou informações da pessoa ou vaga, portanto, não é vantajosa para o treino do modelo de predição de faixa salarial. A intenção de mudar de emprego pode ser influenciada por muitos fatores, como satisfação no trabalho, oportunidades de crescimento, mudanças pessoais, etc., e não está diretamente relacionada à remuneração.\n\nAlém disso, essa pergunta pode gerar um viés discriminativo, pois pessoas que pretendem mudar de emprego podem ter diferentes motivos e expectativas em relação à remuneração, o que pode influenciar a precisão do modelo.\n\n//NO"
+    },
+    "P2_o": {
+        "question": "Quais os principais critérios que você leva em consideração no momento de decidir onde trabalhar?",
+        "alternativas": {
+            "P2_o_1": "Remuneração/Salário",
+            "P2_o_2": "Benefícios",
+            "P2_o_3": "Propósito do trabalho e da empresa",
+            "P2_o_4": "Flexibilidade de trabalho remoto",
+            "P2_o_5": "Ambiente e clima de trabalho",
+            "P2_o_6": "Oportunidade de aprendizado e trabalhar com referências na área",
+            "P2_o_7": "Plano de carreira e oportunidades de crescimento profissional",
+            "P2_o_8": "Maturidade da empresa em termos de tecnologia e dados",
+            "P2_o_9": "Qualidade dos gestores e líderes",
+            "P2_o_10": "Reputação que a empresa tem no mercado"
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P2_o: Quais os principais critérios que você leva em consideração no momento de decidir onde trabalhar?\n\nEssa pergunta/resposta pode ser vantajosa no treino do modelo, pois fornece informações sobre as prioridades do indivíduo ao escolher um emprego. Isso pode ajudar a entender melhor as necessidades e desejos do indivíduo e, consequentemente, influenciar na escolha da faixa salarial.\n\nNo entanto, é importante considerar que essa pergunta pode gerar viés discriminativo se as respostas forem influenciadas por características demográficas ou socioeconômicas do indivíduo. Por exemplo, se indivíduos com maior renda ou de maior idade tendem a priorizar benefícios ou plano de carreira, isso pode levar a uma modelagem que discrimine esses grupos.\n\nEm resumo, a pergunta/resposta P2_o é vantajosa para o treino do modelo, pois fornece informações sobre as prioridades do indivíduo, mas é importante considerar a possibilidade de viés discriminativo e tomar medidas para minimizá-lo. //YES"
+    },
+    "P2_q": {
+        "question": "Empresa que trabaha passou por layoff em 2023",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta:\n\nA pergunta \"P2_q: Empresa que trabalha passou por layoff em 2023\" pode não ser vantajosa para o modelo de predição de faixa salarial. Isso porque a informação sobre layoff da empresa pode ser um fator externo ao indivíduo ou à vaga, e não diretamente relacionado à habilidade ou performance do indivíduo ou à demanda da vaga.\n\nAlém disso, essa informação pode gerar um viés discriminativo, pois empresas que passaram por layoff podem ter uma cultura de redução de custos e não necessariamente uma cultura de valorização do talento, o que pode influenciar negativamente na remuneração dos funcionários.\n\nPortanto, a pergunta/resposta não é adequada para o modelo de predição de faixa salarial.\n\nMotivo: A informação sobre layoff da empresa não é relevante para a habilidade ou performance do indivíduo ou à demanda da vaga.\n\n//NO"
+    },
+    "P2_r": {
+        "question": "Atualmente qual a sua forma de trabalho?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta P2_r \"Atualmente qual a sua forma de trabalho?\" pode ser considerada como uma característica relevante para o modelo de predição de faixa salarial, pois a forma de trabalho pode influenciar a remuneração de um profissional. Por exemplo, profissionais que trabalham em regime de trabalho remoto podem ter uma remuneração mais alta do que aqueles que trabalham em regime de trabalho presencial.\n\nNo entanto, é importante considerar que essa pergunta pode gerar um viés discriminativo, pois pode ser mais comum que profissionais de determinadas regiões ou setores trabalhem em regime de trabalho remoto, o que pode influenciar a predição de faixa salarial de forma desejada.\n\nEm resumo, a pergunta P2_r é relevante para o modelo, mas precisa ser tratada com cuidado para evitar viés discriminativo. //YES"
+    },
+    "P2_s": {
+        "question": "Qual a forma de trabalho ideal para você?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P2_s: Qual a forma de trabalho ideal para você?\n\nEssa pergunta não é vantajosa para o treino do modelo de predição de faixa salarial. A razão é que a forma de trabalho ideal não está diretamente relacionada à habilidade ou experiência do indivíduo, o que é fundamental para a predição da faixa salarial. Além disso, essa pergunta pode gerar viés discriminativo, pois pode ser influenciada por fatores como gênero, idade, etc.\n\nMotivo: A pergunta não está relacionada à habilidade ou experiência do indivíduo, o que é fundamental para a predição da faixa salarial.\n\n//NO"
+    },
+    "P2_t": {
+        "question": "Caso sua empresa decida pelo modelo 100% presencial qual será sua atitude?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise: Essa pergunta/resposta não é diretamente relacionada à habilidade ou informações da pessoa ou vaga, mas sim à preferência da pessoa em relação ao modelo de trabalho. Isso pode gerar um viés discriminativo, pois as pessoas podem ter diferentes atitudes em relação ao modelo de trabalho baseadas em fatores pessoais, como idade, gênero, etc.\n\nMotivo: A pergunta/resposta não é relevante para a predição da faixa salarial, pois não fornece informações sobre as habilidades ou características da pessoa ou vaga.\n\nResposta: //NO"
+    },
+    "P3_a": {
+        "question": "Qual o número aproximado de pessoas que atuam com dados na sua empresa hoje?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta P3_a \"Qual o número aproximado de pessoas que atuam com dados na sua empresa hoje?\" pode ser considerada vantajosa para o modelo de predição de faixa salarial. Isso porque:\n\n* Ela fornece informações sobre a escala e a estrutura da equipe de dados da empresa, o que pode ser relevante para entender a complexidade e a responsabilidade do cargo.\n* Pode ajudar a identificar se a empresa tem uma cultura de dados mais desenvolvida, o que pode influenciar na remuneração dos profissionais.\n\nNo entanto, é importante considerar que essa pergunta pode gerar um viés discriminativo se as empresas com mais pessoas atuando com dados forem mais propensas a pagar mais alto para esses profissionais. Além disso, a resposta pode ser subjetiva e influenciada pela percepção do entrevistado.\n\nRazão: A pergunta fornece informações relevantes sobre a empresa e pode ajudar a entender a complexidade do cargo. //YES"
+    },
+    "P3_b": {
+        "question": "Quais desses papéis/cargos fazem parte do time (ou chapter de dados da sua empresa?",
+        "alternativas": {
+            "P3_b_1": "Analytics Engineer",
+            "P3_b_2": "Engenharia de Dados/Data Engineer",
+            "P3_b_3": "Analista de Dados/Data Analyst",
+            "P3_b_4": "Cientista de Dados/Data Scientist",
+            "P3_b_5": "Database Administrator/DBA",
+            "P3_b_6": "Analista de Business Intelligence/BI",
+            "P3_b_7": "Arquiteto de Dados/Data Architect",
+            "P3_b_8": "Data Product Manager/DPM",
+            "P3_b_9": "Business Analyst"
+        },
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P3_b:\n\nEssa pergunta/resposta parece não ser vantajosa para o treino do modelo de predição de faixa salarial. A razão é que a pergunta se refere à composição do time de dados da empresa, o que não tem relação direta com as habilidades e informações da pessoa ou da vaga em questão.\n\nAlém disso, essa pergunta pode gerar um viés discriminativo indesejado no modelo, pois empresas maiores ou mais bem-sucedidas podem ter times de dados mais diversificados, o que pode influenciar a predição de faixa salarial de forma não justa.\n\nPortanto, a pergunta/resposta P3_b não é adequada para o treino do modelo. //NO"
+    },
+    "   ": {
+        "question": "Quais dessas responsabilidades fazem parte da sua rotina atual de trabalho como gestor?",
+        "alternativas": {
+            "P3_c_1": "Pensar na visão de longo prazo de dados da empresa e fortalecimento da cultura analítica da companhia.",
+            "P3_c_2": "Organização de treinamentos e iniciativas com o objetivo de aumentar a maturidade analítica das áreas de negócios.",
+            "P3_c_3": "Atração, seleção e contratação de talentos para o time de dados.",
+            "P3_c_4": "Decisão sobre contratação de ferramentas e tecnologias relacionadas a dados.",
+            "P3_c_5": "Sou gestor da equipe responsável pela engenharia de dados e por manter o Data Lake da empresa como fonte única dos dados, garantindo a qualidade e confiabilidade da informação.",
+            "P3_c_6": "Sou gestor da equipe responsável pela entrega de dados, estudos, relatórios e dashboards para as áreas de negócio da empresa.",
+            "P3_c_7": "Sou gestor da equipe responsável por iniciativas e projetos envolvendo Inteligência Artificial e Machine Learning.",
+            "P3_c_8": "Apesar de ser gestor ainda atuo na parte técnica, construindo soluções/análises/modelos etc.",
+            "P3_c_9": "Gestão de projetos de dados, cuidando das etapas, equipes envolvidas, atingimento dos objetivos etc.",
+            "P3_c_10": "Gestão de produtos de dados, cuidando da visão dos produtos, backlog, feedback de usuários etc.",
+            "P3_c_11": "Gestão de pessoas, apoio no desenvolvimento das pessoas, evolução de carreira"
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P3_c: Quais dessas responsabilidades fazem parte da sua rotina atual de trabalho como gestor?\n\nEssa pergunta/resposta pode ser vantajosa no treino do modelo, pois fornece informações sobre as habilidades e responsabilidades do gestor de dados, o que pode ser relevante para prever a faixa salarial. Além disso, essa pergunta/resposta pode ajudar a identificar habilidades específicas, como gestão de projetos, gestão de pessoas e gestão de tecnologias, que podem ser importantes para a remuneração.\n\nNo entanto, é importante notar que essa pergunta/resposta pode gerar viés discriminativo se as respostas forem mais frequentemente associadas a gênero, raça ou outras características demográficas. Por exemplo, se as respostas mais frequentes forem relacionadas a responsabilidades mais tradicionais, como gestão de projetos e gestão de pessoas, isso pode refletir uma visão mais conservadora e patriarcal da gestão de dados.\n\nEm resumo, essa pergunta/resposta pode ser vantajosa no treino do modelo, desde que seja cuidadosamente analisada para evitar viés discriminativo. //YES"
+    },
+    "P3_d": {
+        "question": "Quais são os 3 maiores desafios que você tem como gestor no atual momento?",
+        "alternativas": {
+            "P3_d_1": "a Contratar novos talentos.",
+            "P3_d_2": "b Reter talentos.",
+            "P3_d_3": "c Convencer a empresa a aumentar os investimentos na área de dados.",
+            "P3_d_4": "d Gestão de equipes no ambiente remoto.",
+            "P3_d_5": "e Gestão de projetos envolvendo áreas multidisciplinares da empresa.",
+            "P3_d_6": "f Organizar as informações e garantir a qualidade e confiabilidade.",
+            "P3_d_7": "g Conseguir processar e armazenar um alto volume de dados.",
+            "P3_d_8": "h Conseguir gerar valor para as áreas de negócios através de estudos e experimentos.",
+            "P3_d_9": "i Desenvolver e manter modelos Machine Learning em produção.",
+            "P3_d_10": "j Gerenciar a expectativa das áreas de negócio em relação as entregas das equipes de dados.",
+            "P3_d_11": "k Garantir a manutenção dos projetos e modelos em produção, em meio ao crescimento da empresa.",
+            "P3_d_12": "Conseguir levar inovação para a empresa através dos dados.",
+            "P3_d_13": "Garantir retorno do investimento (ROI em projetos de dados.",
+            "P3_d_14": "Dividir o tempo entre entregas técnicas e gestão."
+        },
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P3_d: Quais são os 3 maiores desafios que você tem como gestor no atual momento?\n\nEssa pergunta/resposta não é vantajosa para o treino do modelo de predição de faixa salarial baseado em habilidades e informações de uma certa pessoa ou para certa vaga. A razão é que os desafios mencionados são específicos para um cargo de gestor de dados e não têm relação direta com as habilidades ou informações necessárias para um determinado cargo ou vaga.\n\nAlém disso, essa pergunta/resposta pode gerar viés discriminativo indesejado no modelo, pois os desafios mencionados podem ser mais comuns em certos setores ou empresas, o que pode influenciar a predição de faixa salarial de forma injusta.\n\n//NO"
+    },
+    "P3_e": {
+        "question": "AI Generativa é uma prioridade em sua empresa?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta/resposta P3_e \"AI Generativa é uma prioridade em sua empresa?\" pode ser considerada vantajosa para o modelo de predição de faixa salarial. Isso porque a priorização de tecnologias como AI Generativa pode indicar que a empresa está disposta a investir em tecnologias mais avançadas e complexas, o que pode ser relacionado a uma remuneração mais alta.\n\nNo entanto, é importante considerar que essa pergunta pode gerar um viés discriminativo, pois empresas que priorizam a AI Generativa podem ter uma cultura mais inovadora e mais propensa a pagar mais alto para atrair e manter talentos. Isso pode levar a uma overestima da remuneração para essas empresas.\n\nEm resumo, a pergunta/resposta P3_e é vantajosa para o modelo, pois pode fornecer informações valiosas sobre a empresa e suas prioridades, mas é importante considerar o risco de viés discriminativo. //YES"
+    },
+    "P3_f": {
+        "question": "Tipos de uso de AI Generativa e LLMs na empresa",
+        "alternativas": {
+            "P3_f_1": "Colaboradores usando AI generativa de forma independente e descentralizada",
+            "P3_f_2": "Direcionamento centralizado do uso de AI generativa",
+            "P3_f_3": "Desenvolvedores utilizando Copilots",
+            "P3_f_4": "AI Generativa e LLMs para melhorar produtos externos",
+            "P3_f_5": "AI Generativa e LLMs para melhorar produtos internos para os colaboradores",
+            "P3_f_6": "IA Generativa e LLMs como principal frente do negócio",
+            "P3_f_7": "IA Generativa e LLMs não é prioridade",
+            "P3_f_8": "Não sei opinar sobre o uso de IA Generativa e LLMs na empresa"
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P3_f: Tipos de uso de AI Generativa e LLMs na empresa.\n\nA pergunta/resposta P3_f é relevante para o modelo de predição de faixa salarial, pois pode fornecer informações sobre a habilidade da empresa em utilizar tecnologias de inteligência artificial, o que pode ser um indicador de habilidades e competências dos colaboradores.\n\nA pergunta/resposta P3_f não gera viés discriminativo indesejado, pois não se refere a características pessoais ou demográficas dos colaboradores.\n\nA pergunta/resposta P3_f pode ser vantajosa para o modelo, pois pode fornecer informações sobre a capacidade da empresa em utilizar tecnologias de inteligência artificial, o que pode ser um indicador de habilidades e competências dos colaboradores.\n\nRazão: A pergunta/resposta P3_f pode fornecer informações sobre a habilidade da empresa em utilizar tecnologias de inteligência artificial, o que pode ser um indicador de habilidades e competências dos colaboradores.\n\n//YES"
+    },
+    "P3_g": {
+        "question": "Motivos que levam a empresa a não usar AI Genrativa e LLMs",
+        "alternativas": {
+            "P3_g_1": "Falta de compreensão dos casos de uso",
+            "P3_g_2": "Falta de confiabilidade das saídas (alucinação dos modelos",
+            "P3_g_3": "Incerteza em relação a regulamentação",
+            "P3_g_4": "Preocupações com segurança e privacidade de dados",
+            "P3_g_5": "Retorno sobre investimento (ROI não comprovado de IA Generativa",
+            "P3_g_6": "Dados da empresa não estão prontos para uso de IA Generativa",
+            "P3_g_7": "Falta de expertise ou falta de recursos",
+            "P3_g_8": "Alta direção da empresa não vê valor ou não vê como prioridade",
+            "P3_g_9": "Preocupações com propriedade intelectual"
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P3_g: Motivos que levam a empresa a não usar AI Genrativa e LLMs:\n\nEssa pergunta/resposta pode ser vantajosa no treino do modelo, pois fornece informações sobre as razões pelas quais as empresas não estão usando tecnologias de inteligência artificial gerativa e linguagem de marcação de linguagem (LLMs). Isso pode ajudar a entender melhor as barreiras e obstáculos que as empresas enfrentam ao adotar essas tecnologias e, consequentemente, pode influenciar na formação de um modelo de previsão de remuneração de cargos que leva em conta essas considerações.\n\nNo entanto, é importante notar que essa pergunta/resposta pode gerar um viés discriminativo indesejado se as respostas forem mais comuns em certos setores ou empresas, o que pode levar a uma modelagem que não seja justa ou equitativa.\n\nRazão: //YES//"
+    },
+    "P4_a": {
+        "question": "Mesmo que esse não seja seu cargo formal, você considera que sua atuação no dia a dia, reflete alguma das opções listadas abaixo?",
+        "alternativas": {
+            "P4_a_1": "Atuacao"
+        },
+        "is_good_feature": false,
+        "answer": "Análise: A pergunta P4_a parece interessante pois pode fornecer informações sobre as habilidades e responsabilidades do indivíduo, que podem ser relevantes para a previsão da faixa salarial. No entanto, é importante considerar que a resposta pode ser subjetiva e pode variar de pessoa para pessoa.\n\nRisco de viés discriminativo: Sim, há um risco de viés discriminativo pois a pergunta pode ser influenciada por fatores como gênero, raça, idade, etc. Por exemplo, um indivíduo pode ser mais propenso a considerar suas habilidades em um determinado cargo se for do mesmo gênero ou raça.\n\nConclusão: Embora a pergunta P4_a seja interessante, é importante considerar o risco de viés discriminativo e a subjetividade da resposta. Portanto, não é uma pergunta/resposta vantajosa para o modelo. //NO"
+    },
+    "P4_b": {
+        "question": "Quais das fontes de dados listadas você já analisou ou processou no trabalho?",
+        "alternativas": {
+            "P4_b_1": "Dados relacionais (estruturados em bancos SQL",
+            "P4_b_2": "Dados armazenados em bancos NoSQL",
+            "P4_b_3": "Imagens",
+            "P4_b_4": "Textos/Documentos",
+            "P4_b_5": "Vídeos",
+            "P4_b_6": "Áudios",
+            "P4_b_7": "Planilhas",
+            "P4_b_8": "Dados georeferenciados"
+        },
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P4_b: Quais das fontes de dados listadas você já analisou ou processou no trabalho?\n\nEssa pergunta/resposta não é diretamente relevante para a previsão de faixa salarial baseada em habilidades e informações de uma certa pessoa ou vaga. A habilidade em lidar com diferentes fontes de dados pode ser uma habilidade útil, mas não é um indicador direto da remuneração.\n\nAlém disso, essa pergunta/resposta pode gerar um viés discriminativo, pois pessoas que trabalham com dados mais complexos (como imagens, vídeos, áudios) podem ser consideradas mais qualificadas ou experientes, o que pode influenciar a previsão de remuneração de forma injusta.\n\nPortanto, a resposta é: //NO//"
+    },
+    "P4_c": {
+        "question": "Entre as fontes de dados listadas, quais você utiliza na maior parte do tempo?",
+        "alternativas": {
+            "P4_c_1": "Dados relacionais (estruturados em bancos SQL",
+            "P4_c_2": "Dados armazenados em bancos NoSQL",
+            "P4_c_3": "Imagens",
+            "P4_c_4": "Textos/Documentos",
+            "P4_c_5": "Vídeos",
+            "P4_c_6": "Áudios",
+            "P4_c_7": "Planilhas",
+            "P4_c_8": "Dados georeferenciados"
+        },
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P4_c: Entre as fontes de dados listadas, quais você utiliza na maior parte do tempo?\n\nEssa pergunta/resposta não é diretamente relacionada à remuneração de cargos, portanto, não é vantajosa para o modelo de previsão de faixa salarial. Além disso, a resposta pode gerar um viés discriminativo, pois pessoas que trabalham com diferentes tipos de dados podem ter habilidades e experiências diferentes, mas isso não é diretamente relacionado à remuneração.\n\nMotivo: A pergunta/resposta não é relevante para a previsão de faixa salarial e pode gerar um viés discriminativo.\n\n//NO"
+    },
+    "P4_d": {
+        "question": "Quais das linguagens listadas abaixo você utiliza no trabalho?",
+        "alternativas": {
+            "P4_d_1": "SQL",
+            "P4_d_2": "R ",
+            "P4_d_3": "Python",
+            "P4_d_4": "C/C++/C#",
+            "P4_d_5": ".NET",
+            "P4_d_6": "Java",
+            "P4_d_7": "Julia",
+            "P4_d_8": "SAS/Stata",
+            "P4_d_9": "Visual Basic/VBA",
+            "P4_d_10": "Scala",
+            "P4_d_11": "Matlab",
+            "P4_d_12": "Rust",
+            "P4_d_13": "PHP",
+            "P4_d_14": "JavaScript",
+            "P4_d_15": "Não utilizo nenhuma linguagem"
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P4_d: Quais das linguagens listadas abaixo você utiliza no trabalho?\n\nA pergunta/resposta P4_d é vantajosa para o modelo de predição de faixa salarial, pois:\n\n* Ela fornece informações sobre as habilidades técnicas do indivíduo, o que é relevante para a remuneração de um cargo.\n* A lista de linguagens é ampla e aborda diferentes áreas de conhecimento, o que permite capturar a diversidade de habilidades dos profissionais.\n\nNo entanto, é importante considerar que a pergunta/resposta P4_d pode gerar um viés discriminativo se a escolha das linguagens for influenciada por fatores como gênero, raça, idade ou localização geográfica. Por exemplo, se as linguagens mais valorizadas forem mais comuns entre homens ou em certas regiões, isso pode levar a uma desigualdade de remuneração.\n\nEm resumo, a pergunta/resposta P4_d é vantajosa para o modelo, pois fornece informações relevantes sobre as habilidades técnicas do indivíduo, mas é importante monitorar a possibilidade de viés discriminativo e tomar medidas para mitigá-lo. //YES"
+    },
+    "P4_e": {
+        "question": "Entre as linguagens listadas abaixo, qual é a que você mais utiliza no trabalho?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise:\n\nA pergunta P4_e parece relevante para o modelo de predição de faixa salarial, pois a habilidade em linguagens de programação pode ser um indicador de habilidades técnicas e de demanda no mercado. Além disso, a resposta pode fornecer informações valiosas sobre a especialização do indivíduo em uma área específica.\n\nNo entanto, é importante considerar que a pergunta pode gerar um viés discriminativo se as linguagens mais populares forem mais valorizadas do que as outras. Isso pode levar a um modelo que prioriza indivíduos com habilidades em linguagens mais comuns, independentemente de suas habilidades em outras áreas.\n\nRazão: A pergunta P4_e pode fornecer informações valiosas sobre as habilidades técnicas do indivíduo e sua especialização em uma área específica, o que pode ser relevante para a predição de faixa salarial. No entanto, é importante considerar o risco de viés discriminativo e garantir que o modelo seja treinado de forma a minimizar esse efeito.\n\n//YES"
+    },
+    "P4_f": {
+        "question": "Entre as linguagens listadas abaixo, qual é a sua preferida?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise: A pergunta P4_f é interessante pois pode fornecer informações sobre as habilidades linguísticas do indivíduo, o que pode ser relevante para a previsão da faixa salarial. No entanto, é importante considerar que a preferência por linguagens pode ser subjetiva e não necessariamente refletir habilidades técnicas.\n\nRisco de viés discriminativo: Sim, há um risco de viés discriminativo, pois a preferência por linguagens pode ser influenciada por fatores como gênero, idade, localização geográfica, entre outros.\n\nConclusão: Embora a pergunta P4_f seja interessante, o risco de viés discriminativo é alto. Portanto, não é adequada para o treino do modelo. //NO"
+    },
+    "P4_g": {
+        "question": "Quais dos bancos de dados/fontes de dados listados abaixo você utiliza no trabalho?",
+        "alternativas": {
+            "P4_g_1": "MySQL",
+            "P4_g_2": "Oracle",
+            "P4_g_3": "SQL SERVER",
+            "P4_g_4": "Amazon Aurora ou RDS",
+            "P4_g_5": "DynamoDB",
+            "P4_g_6": "CoachDB",
+            "P4_g_7": "Cassandra",
+            "P4_g_8": "MongoDB",
+            "P4_g_9": "MariaDB",
+            "P4_g_10": "Datomic",
+            "P4_g_11": "S3",
+            "P4_g_12": "PostgreSQL",
+            "P4_g_13": "ElasticSearch",
+            "P4_g_14": "DB2",
+            "P4_g_15": "Microsoft Access",
+            "P4_g_16": "SQLite",
+            "P4_g_17": "Sybase",
+            "P4_g_18": "Firebase",
+            "P4_g_19": "Vertica",
+            "P4_g_20": "Redis",
+            "P4_g_21": "Neo4J",
+            "P4_g_22": "Google BigQuery",
+            "P4_g_23": "Google Firestore",
+            "P4_g_24": "Amazon Redshift",
+            "P4_g_25": "Amazon Athena",
+            "P4_g_26": "Snowflake",
+            "P4_g_27": "Databricks",
+            "P4_g_28": "HBase",
+            "P4_g_29": "Presto",
+            "P4_g_30": "Splunk",
+            "P4_g_31": "SAP HANA",
+            "P4_g_32": "Hive",
+            "P4_g_33": "Firebird"
+        },
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P4_g: Quais dos bancos de dados/fontes de dados listados abaixo você utiliza no trabalho?\n\nEssa pergunta/resposta não é vantajosa para o modelo de predição de faixa salarial. A razão é que a escolha de um banco de dados específico não é diretamente relacionada à habilidade ou ao desempenho do profissional, o que é o objetivo do modelo. Além disso, a pergunta pode gerar viés discriminativo, pois profissionais que trabalham com bancos de dados mais específicos ou menos comuns podem ser penalizados ou beneficiados indevidamente.\n\n//NO"
+    },
+    "P4_h": {
+        "question": "Dentre as opções listadas, qual sua Cloud preferida?",
+        "alternativas": {
+            "P4_h_1": "Azure (Microsoft",
+            "P4_h_2": "Amazon Web Services (AWS",
+            "P4_h_3": "Google Cloud (GCP",
+            "P4_h_4": "Oracle Cloud",
+            "P4_h_5": "IBM",
+            "P4_h_6": "Servidores On Premise/Não utilizamos Cloud",
+            "P4_h_7": "Cloud Própria"
+        },
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P4_h: Dentre as opções listadas, qual sua Cloud preferida?\n\nEssa pergunta/resposta não é diretamente relevante para a previsão de faixa salarial baseada em habilidades e informações de uma certa pessoa ou para certa vaga. A escolha de uma cloud preferida não é um indicador confiável de habilidades ou desempenho profissional.\n\nAlém disso, essa pergunta pode gerar um viés discriminativo indesejado no modelo, pois a escolha de uma cloud pode ser influenciada por fatores como a empresa ou o setor em que o profissional trabalha, o que pode não estar relacionado à habilidade ou ao desempenho do profissional.\n\nPortanto, essa pergunta/resposta não é vantajosa para o treino do modelo. //NO"
+    },
+    "P4_i": {
+        "question": "Cloud preferida",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "A pergunta \"P4_i: Cloud preferida\" pode ser considerada como uma característica relevante para o modelo de previsão de faixa salarial, pois a habilidade em trabalhar com diferentes tecnologias de nuvem pode ser uma habilidade valiosa para os empregadores.\n\nNo entanto, é importante considerar que essa característica pode gerar um viés discriminativo, pois pode ser mais comum que os profissionais de tecnologia mais experientes e bem remunerados tenham mais experiência em trabalhar com nuvens específicas, como AWS ou Azure. Isso pode levar a um modelo que prioriza esses profissionais em detrimento de outros que possuem habilidades equivalentes, mas menos experiência em nuvens específicas.\n\nAlém disso, a escolha da nuvem preferida pode ser influenciada por fatores como a empresa, o setor ou a localização, o que pode não ser diretamente relacionado à habilidade ou ao valor do profissional.\n\nEm resumo, a pergunta \"P4_i: Cloud preferida\" pode ser relevante para o modelo, mas é importante considerar o risco de viés discriminativo e a possibilidade de influência de fatores externos. //NO"
+    },
+    "P4_j": {
+        "question": "Ferramenta de BI utilizada no dia a dia",
+        "alternativas": {
+            "P4_j_1": "Microsoft PowerBI",
+            "P4_j_2": "Qlik View/Qlik Sense",
+            "P4_j_3": "Tableau",
+            "P4_j_4": "Metabase",
+            "P4_j_5": "Superset",
+            "P4_j_6": "Redash",
+            "P4_j_7": "Looker",
+            "P4_j_8": "Looker Studio(Google Data Studio",
+            "P4_j_9": "Amazon Quicksight",
+            "P4_j_10": "Mode",
+            "P4_j_11": "Alteryx",
+            "P4_j_12": "MicroStrategy",
+            "P4_j_13": "IBM Analytics/Cognos",
+            "P4_j_14": "SAP Business Objects/SAP Analytics",
+            "P4_j_15": "Oracle Business Intelligence",
+            "P4_j_16": "Salesforce/Einstein Analytics",
+            "P4_j_17": "Birst",
+            "P4_j_18": "SAS Visual Analytics",
+            "P4_j_19": "Grafana",
+            "P4_j_20": "TIBCO Spotfire",
+            "P4_j_21": "Pentaho",
+            "P4_j_22": "Fazemos todas as análises utilizando apenas Excel ou planilhas do google",
+            "P4_j_23": "Não utilizo nenhuma ferramenta de BI no trabalho"
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P4_j: Ferramenta de BI utilizada no dia a dia.\n\nA pergunta/resposta P4_j é vantajosa para o modelo de predição de faixa salarial, pois:\n\n* A escolha de ferramentas de BI pode ser um indicador da complexidade e amplitude das análises realizadas pelo profissional, o que pode influenciar na sua remuneração.\n* A ferramenta de BI utilizada pode ser um indicador da cultura e do ambiente de trabalho, o que pode afetar a remuneração.\n\nNo entanto, é importante considerar que a pergunta/resposta P4_j pode gerar um viés discriminativo se a escolha da ferramenta de BI estiver relacionada à empresa ou ao setor em que o profissional trabalha, o que pode influenciar na remuneração de forma desigual.\n\nRazão: A escolha da ferramenta de BI pode ser influenciada por fatores como o tamanho da empresa, o setor em que atua e a cultura organizacional, o que pode afetar a remuneração de forma desigual.\n\n//YES"
+    },
+    "P4_k": {
+        "question": "Qual sua ferramenta de BI preferida?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "A pergunta P4_k \"Qual sua ferramenta de BI preferida?\" não é vantajosa para o treino do modelo de predição de faixa salarial. Isso porque a escolha de ferramenta de BI é subjetiva e pode variar de pessoa para pessoa, independentemente da habilidade ou experiência em análise de dados. Além disso, essa pergunta pode gerar um viés discriminativo, pois pessoas que trabalham com ferramentas mais populares ou mais difundidas podem ser mais facilmente identificadas como \"experts\" em análise de dados, enquanto aquelas que trabalham com ferramentas menos comuns podem ser menos valorizadas.\n\n//NO"
+    },
+    "P4_l": {
+        "question": "Qual o tipo de uso de AI Generativa e LLMs na empresa",
+        "alternativas": {
+            "P4_l_1": "Colaboradores usando AI generativa de forma independente e descentralizada",
+            "P4_l_2": "Direcionamento centralizado do uso de AI generativa",
+            "P4_l_3": "Desenvolvedores utilizando Copilots",
+            "P4_l_4": "AI Generativa e LLMs para melhorar produtos externos para os clientes finais",
+            "P4_l_5": "AI Generativa e LLMs para melhorar produtos internos para os colaboradores",
+            "P4_l_6": "IA Generativa e LLMs como principal frente do negócio",
+            "P4_l_7": "IA Generativa e LLMs não é prioridade",
+            "P4_l_8": "Não sei opinar sobre o uso de IA Generativa e LLMs na empresa"
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P4_l: Qual o tipo de uso de AI Generativa e LLMs na empresa.\n\nA pergunta/resposta P4_l é relevante para o modelo de predição de faixa salarial, pois pode fornecer informações sobre a habilidade da empresa em utilizar tecnologias de inteligência artificial, que pode ser um fator importante para a remuneração dos funcionários. Além disso, a pergunta/resposta pode fornecer insights sobre a cultura e a estrutura da empresa, o que pode influenciar na remuneração dos funcionários.\n\nNo entanto, é importante notar que a pergunta/resposta P4_l pode gerar um viés discriminativo se a empresa que mais utiliza AI Generativa e LLMs for uma empresa de tecnologia, por exemplo, e a empresa que menos utiliza for uma empresa de serviços. Isso pode levar a uma overestima da remuneração dos funcionários da empresa de tecnologia e uma underestima da remuneração dos funcionários da empresa de serviços.\n\nEm resumo, a pergunta/resposta P4_l é relevante para o modelo de predição de faixa salarial, mas é importante considerar o viés discriminativo que pode ser gerado. //YES"
+    },
+    "P4_m": {
+        "question": "Utiliza ChatGPT ou LLMs no trabalho?",
+        "alternativas": {
+            "P4_m_1": "Não uso soluções de AI Generativa com foco em produtividade",
+            "P4_m_2": "Uso soluções gratuitas de AI Generativa com foco em produtividade",
+            "P4_m_3": "Uso e pago pelas soluções de AI Generativa com foco em produtividade",
+            "P4_m_4": "A empresa que trabalho paga pelas soluções de AI Generativa com foco em produtividade",
+            "P4_m_5": "Uso soluções do tipo Copilot"
+        },
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P4_m: Utiliza ChatGPT ou LLMs no trabalho?\n\nA pergunta/resposta P4_m parece não ser vantajosa para o modelo de predição de faixa salarial. Isso porque a utilização de ChatGPT ou LLMs no trabalho não é diretamente relacionada à habilidade ou performance do profissional, mas sim à tecnologia utilizada. Além disso, a pergunta/resposta pode gerar um viés discriminativo, pois profissionais que trabalham com tecnologias mais avançadas podem ser considerados mais valiosos do que aqueles que não o fazem.\n\nPortanto, a pergunta/resposta P4_m não é adequada para o modelo de predição de faixa salarial. //NO"
+    },
+    "P5_a": {
+        "question": "Qual seu objetivo na área de dados?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta P5_a \"Qual seu objetivo na área de dados?\" pode ser considerada como uma pergunta aberta, pois a resposta pode variar muito de pessoa para pessoa. No entanto, se analisarmos a pergunta de forma mais detalhada, podemos identificar que ela pode ser útil para entender melhor as motivações e expectativas do indivíduo em relação ao seu trabalho na área de dados.\n\nA pergunta pode ajudar a identificar se o indivíduo está mais interessado em desenvolver habilidades técnicas, em trabalhar em equipe, em liderar projetos, etc. Isso pode ser útil para prever a remuneração, pois indivíduos com objetivos mais específicos e claros podem ter expectativas mais realistas em relação ao seu salário.\n\nNo entanto, é importante considerar que a pergunta pode gerar viés discriminativo se as respostas forem avaliadas de forma subjetiva. Por exemplo, se uma pessoa responder que seu objetivo é \"trabalhar em equipe\", isso pode ser visto como mais positivo do que se uma pessoa responder que seu objetivo é \"desenvolver habilidades técnicas\". Portanto, é importante considerar a forma como as respostas serão avaliadas e codificadas.\n\nEm resumo, a pergunta P5_a pode ser útil para entender melhor as motivações e expectativas do indivíduo, mas é importante considerar a forma como as respostas serão avaliadas e codificadas para evitar viés discriminativo. //YES"
+    },
+    "P5_b": {
+        "question": "Qual oportunidade você está buscando?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "A pergunta P5_b \"Qual oportunidade você está buscando?\" não é vantajosa para o treino do modelo de predição de faixa salarial. Isso porque a resposta pode ser subjetiva e não está diretamente relacionada à habilidade ou experiência do indivíduo, o que é fundamental para a predição da faixa salarial.\n\nAlém disso, essa pergunta pode gerar viés discriminativo, pois as pessoas podem responder de forma diferente dependendo de suas expectativas e objetivos, o que pode influenciar a predição da faixa salarial de forma não justa.\n\n//NO"
+    },
+    "P5_c": {
+        "question": "Há quanto tempo você busca uma oportunidade na área de dados?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta P5_c \"Há quanto tempo você busca uma oportunidade na área de dados?\" pode ser considerada como uma característica relevante para o modelo de predição de faixa salarial. Isso porque a experiência de busca por uma oportunidade pode estar relacionada à habilidade e ao conhecimento do indivíduo em dados, o que pode influenciar na remuneração.\n\nA pergunta não parece gerar viés discriminativo indesejado, pois não está relacionada a características pessoais ou demográficas do indivíduo.\n\nPortanto, a pergunta P5_c é vantajosa para o modelo de predição de faixa salarial. //YES"
+    },
+    "P5_d": {
+        "question": "Como tem sido a busca por um emprego na área de dados?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "A pergunta P5_d \"Como tem sido a busca por um emprego na área de dados?\" não é vantajosa para o treino do modelo de predição de faixa salarial. Isso porque a pergunta é subjetiva e não está diretamente relacionada às habilidades ou informações da pessoa ou vaga. Além disso, a resposta pode ser influenciada por fatores pessoais e não reflete necessariamente a habilidade ou experiência da pessoa em questão.\n\n//NO"
+    },
+    "P6_a": {
+        "question": "Quais das opções abaixo fazem parte da sua rotina no trabalho atual como engenheiro de dados?",
+        "alternativas": {
+            "P6_a_1": "Desenvolvo pipelines de dados utilizando linguagens de programação como Python, Scala, Java etc.",
+            "P6_a_2": "Realizo construções de ETLs em ferramentas como Pentaho, Talend, Dataflow etc.",
+            "P6_a_3": "Crio consultas através da linguagem SQL para exportar informações e compartilhar com as áreas de negócio.",
+            "P6_a_4": "Atuo na integração de diferentes fontes de dados através de plataformas proprietárias como Stitch Data, Fivetran etc.",
+            "P6_a_5": "Modelo soluções de arquitetura de dados, criando componentes de ingestão de dados, transformação e recuperação da informação.",
+            "P6_a_6": "Desenvolvo/cuido da manutenção de repositórios de dados baseados em streaming de eventos como Data Lakes e Data Lakehouses.",
+            "P6_a_7": "Atuo na modelagem dos dados, com o objetivo de criar conjuntos de dados como Data Warehouses, Data Marts etc.",
+            "P6_a_8": "Cuido da qualidade dos dados, metadados e dicionário de dados.",
+            "P6_a_9": "Nenhuma das opções listadas refletem meu dia a dia."
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P6_a:\n\nEssa pergunta/resposta é vantajosa para o modelo de predição de faixa salarial porque:\n\n* Ela fornece informações sobre as habilidades e responsabilidades do engenheiro de dados, o que pode ser relevante para a avaliação da remuneração.\n* As opções de resposta são específicas e detalhadas, o que pode ajudar a capturar a complexidade das habilidades e responsabilidades do profissional.\n\nNo entanto, é importante considerar que essa pergunta/resposta pode gerar algum viés discriminativo se as opções de resposta forem mais comuns em certos grupos demográficos ou de gênero. Por exemplo, se as opções de resposta mais comuns forem relacionadas a habilidades mais tradicionais (como desenvolvimento de pipelines de dados), isso pode refletir uma falta de diversidade em termos de habilidades e responsabilidades.\n\nEm resumo, essa pergunta/resposta é vantajosa para o modelo de predição de faixa salarial, mas é importante considerar a possibilidade de viés discriminativo e tomar medidas para minimizá-lo. //YES"
+    },
+    "P6_b": {
+        "question": "Quais as ferramentas/tecnologias de ETL que você utiliza no trabalho como Data Engineer?",
+        "alternativas": {
+            "P6_b_1": "Scripts Python",
+            "P6_b_2": "SQL & Stored Procedures",
+            "P6_b_3": "Apache Airflow",
+            "P6_b_4": "Apache NiFi",
+            "P6_b_5": "Luigi",
+            "P6_b_6": "AWS Glue",
+            "P6_b_7": "Talend",
+            "P6_b_8": "Pentaho",
+            "P6_b_9": "Alteryx",
+            "P6_b_10": "Stitch",
+            "P6_b_11": "Fivetran",
+            "P6_b_12": "Google Dataflow",
+            "P6_b_13": "Oracle Data Integrator",
+            "P6_b_14": "IBM DataStage",
+            "P6_b_15": "SAP BW ETL",
+            "P6_b_16": "SQL Server Integration Services (SSIS",
+            "P6_b_17": "SAS Data Integration",
+            "P6_b_18": "Qlik Sense",
+            "P6_b_19": "Knime",
+            "P6_b_20": "Databricks",
+            "P6_b_21": "Não utilizo ferramentas de ETL"
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P6_b: Quais as ferramentas/tecnologias de ETL que você utiliza no trabalho como Data Engineer?\n\nEssa pergunta/resposta pode ser vantajosa no treino do modelo, pois as ferramentas de ETL utilizadas podem ser um indicador de habilidades e experiência do profissional em trabalhar com dados. Além disso, essa informação pode ajudar a prever a remuneração de um cargo, pois profissionais com habilidades em ETL podem ser mais valorizados no mercado.\n\nNo entanto, é importante considerar que essa pergunta/resposta pode gerar um viés discriminativo, pois profissionais que trabalham com ferramentas mais específicas ou menos comuns podem ser menos representados no dataset. Além disso, a escolha de ferramentas pode ser influenciada por fatores como a empresa, o setor ou a região, o que pode não ser diretamente relacionado à habilidade ou experiência do profissional.\n\nEm resumo, essa pergunta/resposta pode ser vantajosa no treino do modelo, desde que seja tratada com cuidado para evitar viéses discriminativos. //YES"
+    },
+    "P6_c": {
+        "question": "Sua organização possui um Data Lake?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta/resposta \"P6_c: Sua organização possui um Data Lake?\" pode ser considerada como uma característica relevante para o modelo de predição de faixa salarial, pois:\n\n* Ela pode indicar a capacidade da organização em lidar com grandes volumes de dados e armazená-los de forma eficiente, o que pode ser um fator importante para a remuneração dos profissionais.\n* Além disso, a presença de um Data Lake pode ser um indicador de que a organização está investindo em tecnologias de dados avançadas, o que pode ser uma característica desejável para os profissionais de dados.\n\nNo entanto, é importante considerar que a pergunta/resposta pode gerar um viés discriminativo se a presença de um Data Lake for mais comum em organizações maiores ou mais ricas, o que pode levar a uma overestima da remuneração para essas organizações.\n\nEm resumo, a pergunta/resposta \"P6_c: Sua organização possui um Data Lake?\" é relevante para o modelo de predição de faixa salarial, mas é importante considerar o risco de viés discriminativo. //YES"
+    },
+    "P6_d": {
+        "question": "Qual tecnologia utilizada como plataforma do Data Lake?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "A pergunta/resposta P6_d \"Qual tecnologia utilizada como plataforma do Data Lake?\" não é vantajosa para o treino do modelo de predição de faixa salarial. Isso porque a escolha da plataforma do Data Lake não é diretamente relacionada à habilidade ou performance do profissional, e pode gerar um viés discriminativo indesejado no modelo, pois a escolha da plataforma pode ser influenciada por fatores como a empresa, o setor ou a região, e não pela habilidade do profissional.\n\n//NO"
+    },
+    "P6_e": {
+        "question": "Sua organização possui um Data Warehouse?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta/resposta \"P6_e: Sua organização possui um Data Warehouse?\" pode ser considerada vantajosa para o modelo de predição de faixa salarial. Isso porque a presença de um Data Warehouse pode indicar uma cultura de dados mais madura e uma maior capacidade de armazenamento e processamento de dados, o que pode ser um fator relevante para a remuneração de um cargo.\n\n//YES"
+    },
+    "P6_f": {
+        "question": "Qual tecnologia utilizada como plataforma do Data Warehouse?",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "A pergunta P6_f \"Qual tecnologia utilizada como plataforma do Data Warehouse?\" não é vantajosa para o treino do modelo de predição de faixa salarial. Isso porque a escolha da plataforma do Data Warehouse não é diretamente relacionada à habilidade ou ao desempenho do profissional, e não é um fator que influencie significativamente a remuneração.\n\nAlém disso, essa pergunta pode gerar um viés discriminativo, pois pode favorecer profissionais que trabalham com tecnologias mais populares ou mais difundidas, em detrimento de profissionais que trabalham com tecnologias mais especializadas ou menos comuns.\n\n//NO"
+    },
+    "P6_g": {
+        "question": "Quais as ferramentas de gestão de Qualidade de dados, Metadados e catálogo de dados você utiliza no trabalho?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise: A pergunta P6_g é relevante para entender as habilidades e práticas do profissional em relação à gestão de dados, o que pode ser um fator importante para a remuneração. Além disso, a resposta pode fornecer insights sobre a capacidade do profissional em gerenciar e manter dados de alta qualidade.\n\nRisco de viés discriminativo: Não há risco de viés discriminativo, pois a pergunta se refere a habilidades e práticas profissionais, não a características pessoais ou demográficas.\n\nRazão: A pergunta P6_g é vantajosa para o modelo, pois fornece informações sobre as habilidades do profissional em gestão de dados, o que pode influenciar a remuneração. Além disso, a resposta pode ajudar a identificar padrões e tendências em relação à gestão de dados.\n\n//YES"
+    },
+    "P6_h": {
+        "question": "Em qual das opções abaixo você gasta a maior parte do seu tempo?",
+        "alternativas": {
+            "P6_h_1": "Desenvolvendo pipelines de dados utilizando linguagens de programação como Python, Scala, Java etc.",
+            "P6_h_2": "Realizando construções de ETLs em ferramentas como Pentaho, Talend, Dataflow etc.",
+            "P6_h_3": "Criando consultas através da linguagem SQL para exportar informações e compartilhar com as áreas de negócio.",
+            "P6_h_4": "Atuando na integração de diferentes fontes de dados através de plataformas proprietárias como Stitch Data, Fivetran etc.",
+            "P6_h_5": "Modelando soluções de arquitetura de dados, criando componentes de ingestão de dados, transformação e recuperação da informação.",
+            "P6_h_6": "Desenvolvendo/cuidando da manutenção de repositórios de dados baseados em streaming de eventos como Data Lakes e Data Lakehouses.",
+            "P6_h_7": "Atuando na modelagem dos dados, com o objetivo de criar conjuntos de dados como Data Warehouses, Data Marts etc.",
+            "P6_h_8": "Cuidando da qualidade dos dados, metadados e dicionário de dados.",
+            "P6_h_9": "Nenhuma das opções listadas refletem meu dia a dia."
+        },
+        "is_good_feature": true,
+        "answer": "Análise: A pergunta P6_h é relevante para entender as habilidades e responsabilidades do profissional em relação ao tratamento e manipulação de dados. A resposta pode fornecer informações valiosas sobre as habilidades técnicas do profissional, como linguagens de programação, ferramentas de ETL, SQL, integração de dados, modelagem de dados, etc.\n\nRisco de viés discriminativo: A pergunta não parece gerar viés discriminativo, pois as opções de resposta são todas relacionadas a habilidades técnicas e não a características pessoais ou demográficas.\n\nConclusão: A pergunta P6_h é vantajosa para o modelo de predição de faixa salarial, pois fornece informações sobre as habilidades técnicas do profissional e pode ajudar a prever a remuneração baseada na complexidade e especialização das tarefas. //YES"
+    },
+    "P7_1": {
+        "question": "Quais das opções abaixo fazem parte da sua rotina no trabalho atual com análise de dados?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise: A pergunta P7_1 é relevante para o modelo de predição de faixa salarial pois está relacionada às habilidades e rotinas do profissional no trabalho atual com análise de dados. Isso pode ajudar a entender melhor as habilidades e competências do profissional e como elas são utilizadas no trabalho.\n\nRisco de viés discriminativo: Não há risco de viés discriminativo indesejado nessa pergunta, pois está relacionada às habilidades e rotinas do profissional e não a características pessoais ou demográficas.\n\nRazão: A pergunta P7_1 é vantajosa para o modelo de predição de faixa salarial.\n\n//YES"
+    },
+    "P7_a_1": {
+        "question": "Processo e analiso dados utilizando linguagens de programação como Python, R etc.",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P7_a_1: Processo e analiso dados utilizando linguagens de programação como Python, R etc.\n\nEssa pergunta/resposta é relevante para o modelo de predição de faixa salarial pois:\n\n* Ela se refere a habilidades específicas de análise de dados, que são fundamentais para a profissão de data scientist e podem influenciar a remuneração.\n* A resposta pode fornecer informações valiosas sobre a capacidade da pessoa em lidar com dados e processá-los de forma eficaz.\n\nNo entanto, é importante considerar que essa pergunta/resposta pode gerar um viés discriminativo se as linguagens de programação mais populares (como Python) forem mais valorizadas do que as outras (como R). Isso pode levar a uma sobrevalorização de candidatos com habilidades em Python e subvalorização de candidatos com habilidades em R.\n\nEm resumo, essa pergunta/resposta é relevante para o modelo, mas é importante considerar o risco de viés discriminativo. //YES"
+    },
+    "P7_a_2": {
+        "question": "Realizo construções de dashboards em ferramentas de BI como PowerBI, Tableau, Looker, Qlik etc.",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P7_a_2:\n\nEssa pergunta/resposta é uma habilidade específica do profissional, relacionada à construção de dashboards em ferramentas de Business Intelligence (BI). Embora seja relevante para a área de dados, não é diretamente relacionada à remuneração ou ao cargo.\n\nRisco de viés discriminativo: Nenhum, pois a habilidade em si não é discriminatória.\n\nMotivo: Embora seja uma habilidade importante, não é um indicador robusto para prever a remuneração ou o cargo. Além disso, a escolha da ferramenta pode variar de acordo com a empresa ou o setor, o que pode não ser um fator determinante para a remuneração.\n\nConclusão: Essa pergunta/resposta não é vantajosa para o treino do modelo de predição de faixa salarial. //NO"
+    },
+    "P7_a_3": {
+        "question": "Crio consultas através da linguagem SQL para exportar informações e compartilhar com as áreas de negócio.",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise: A pergunta/resposta P7_a_3 parece estar relacionada à habilidade do profissional em trabalhar com consultas SQL, o que pode ser relevante para a análise de habilidades técnicas. No entanto, é importante notar que essa habilidade pode não ser diretamente relacionada à remuneração do cargo.\n\nRisco de viés discriminativo: Sim, há um risco de viés discriminativo, pois a habilidade em SQL pode ser mais comum em profissionais de áreas mais tradicionais, como análise de dados, e menos comum em profissionais de áreas mais recentes, como ciência de dados. Isso pode levar a uma sobrerepresentação de profissionais de áreas mais tradicionais no modelo.\n\nConclusão: Embora a pergunta/resposta P7_a_3 seja relevante para a análise de habilidades técnicas, há um risco de viés discriminativo indesejado. Portanto, não é adequada para o treino do modelo. //NO"
+    },
+    "P7_a_4": {
+        "question": "Utilizo APIs para extrair dados e complementar minhas análises.",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise: A pergunta P7_a_4 \"Utilizo APIs para extrair dados e complementar minhas análises.\" é relevante para o modelo de predição de faixa salarial pois indica a habilidade do profissional em trabalhar com dados e extrair informações valiosas. Isso pode ser um indicador de habilidades técnicas e de capacidade de análise.\n\nRisco de viés discriminativo: Não há risco de viés discriminativo, pois a pergunta se refere a uma habilidade técnica e não a características pessoais ou demográficas.\n\nRazão: A pergunta P7_a_4 é uma boa indicadora de habilidades técnicas e pode ser útil para o modelo de predição de faixa salarial.\n\n//YES"
+    },
+    "P7_a_5": {
+        "question": "Realizo experimentos e estudos utilizando metodologias estatísticas como teste de hipótese, modelos de regressão etc.",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P7_a_5:\n\nA pergunta/resposta P7_a_5 refere-se à habilidade do profissional em realizar experimentos e estudos utilizando metodologias estatísticas. Essa habilidade é relevante para a análise de dados e pode ser um indicador de habilidades mais avançadas em estatística e modelagem.\n\nRaciocínio: Essa pergunta/resposta pode ser vantajosa no treino do modelo, pois pode ajudar a identificar profissionais com habilidades mais avançadas em estatística, o que pode ser um fator importante para a remuneração. Além disso, essa habilidade pode ser um indicador de habilidades mais gerais, como análise crítica e pensamento lógico, que podem ser valiosas em muitas áreas.\n\n//YES"
+    },
+    "P7_a_6": {
+        "question": "Desenvolvo/cuido da manutenção de ETLs utilizando tecnologias como Talend, Pentaho, Airflow, Dataflow etc.",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P7_a_6:\n\nEssa pergunta/resposta parece estar relacionada à habilidade do profissional em desenvolver e manter processos de extração, transformação e carga de dados (ETLs). Embora seja importante para a análise de habilidades, essa pergunta/resposta pode não ser diretamente relacionada à remuneração.\n\nRisco de viés discriminativo: Sim, há um risco de viés discriminativo, pois a habilidade em desenvolver ETLs pode ser mais comum em profissionais com mais experiência ou formação em áreas específicas, o que pode levar a uma discriminação indesejada.\n\nConclusão: Embora seja uma habilidade importante, essa pergunta/resposta não é diretamente relacionada à remuneração e pode gerar um viés discriminativo. Portanto, não é adequada para o modelo de predição de faixa salarial. //NO"
+    },
+    "P7_a_7": {
+        "question": "Atuo na modelagem dos dados, com o objetivo de criar conjuntos de dados, Data Warehouses, Data Marts etc.",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P7_a_7:\n\nEssa pergunta/resposta parece estar relacionada à habilidade do profissional em modelagem de dados, o que é relevante para a previsão de faixa salarial. Além disso, a pergunta/resposta é específica e não muito vaga, o que facilita a interpretação.\n\nRisco de viés discriminativo: Nenhum, pois a pergunta/resposta não parece estar relacionada a características pessoais ou demográficas do profissional.\n\nConclusão: A pergunta/resposta P7_a_7 é vantajosa para o treino do modelo, pois fornece informações relevantes sobre a habilidade do profissional em modelagem de dados. '//YES//'"
+    },
+    "P7_a_8": {
+        "question": "Desenvolvo/cuido da manutenção de planilhas para atender as áreas de negócio.",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P7_a_8: Desenvolvo/cuido da manutenção de planilhas para atender as áreas de negócio.\n\nEssa pergunta/resposta não é diretamente relacionada à habilidade ou ao conhecimento específico do indivíduo, mas sim à sua responsabilidade ou função no trabalho. Embora seja importante para o desempenho do cargo, não é um indicador robusto da habilidade ou do valor do indivíduo para o mercado.\n\nAlém disso, essa pergunta/resposta pode gerar um viés discriminativo, pois pode ser mais comum em certos setores ou empresas, o que pode influenciar a previsão de remuneração.\n\nPortanto, não considero essa pergunta/resposta adequada para o treino do modelo. //NO"
+    },
+    "P7_a_9": {
+        "question": "Utilizo ferramentas avançadas de estatística como SASS, PSS, Stata etc",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise: A pergunta P7_a_9 se refere à utilização de ferramentas avançadas de estatística, o que pode ser relevante para a previsão de faixa salarial, pois habilidades estatísticas podem ser valorizadas no mercado. No entanto, é importante notar que a utilização de ferramentas específicas pode não ser um indicador direto da habilidade ou da eficácia em estatística.\n\nRisco de viés discriminativo: Sim, há um risco de viés discriminativo, pois a pergunta pode favorecer indivíduos com conhecimento em ferramentas específicas, mas não necessariamente com habilidades mais amplas ou mais relevantes para o mercado.\n\nConclusão: Embora a pergunta P7_a_9 possa ser relevante, é importante considerar que a utilização de ferramentas específicas pode não ser um indicador confiável da habilidade em estatística. Além disso, há um risco de viés discriminativo. Portanto, a resposta é: //NO//"
+    },
+    "P7_a_10": {
+        "question": "Nenhuma das opções listadas refletem meu dia a dia.",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P7_a_10: Nenhuma das opções listadas refletem meu dia a dia.\n\nEssa pergunta/resposta não é vantajosa para o treino do modelo de predição de faixa salarial. A razão é que essa pergunta não fornece informações específicas sobre as habilidades ou características da pessoa ou da vaga, o que é fundamental para a formação de um modelo de previsão de remuneração.\n\nAlém disso, essa pergunta pode gerar um viés discriminativo indesejado no modelo, pois pode ser interpretada como uma forma de expressar insatisfação ou descontentamento com o trabalho, o que pode influenciar negativamente a previsão de remuneração.\n\n//NO"
+    },
+    "P7_b": {
+        "question": "Quais as ferramentas/tecnologias de ETL que você utiliza no trabalho como Data Analyst?",
+        "alternativas": {
+            "P7_b_1": "Scripts Python",
+            "P7_b_2": "SQL & Stored Procedures",
+            "P7_b_3": "Apache Airflow",
+            "P7_b_4": "Apache NiFi",
+            "P7_b_5": "Luigi",
+            "P7_b_6": "AWS Glue",
+            "P7_b_7": "Talend",
+            "P7_b_8": "Pentaho",
+            "P7_b_9": "Alteryx",
+            "P7_b_10": "Stitch",
+            "P7_b_11": "Fivetran",
+            "P7_b_12": "Google Dataflow",
+            "P7_b_13": "Oracle Data Integrator",
+            "P7_b_14": "IBM DataStage",
+            "P7_b_15": "SAP BW ETL",
+            "P7_b_16": "SQL Server Integration Services (SSIS",
+            "P7_b_17": "SAS Data Integration",
+            "P7_b_18": "Qlik Sense",
+            "P7_b_19": "Knime",
+            "P7_b_20": "Databricks",
+            "P7_b_21": "Não utilizo ferramentas de ETL"
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P7_b: Quais as ferramentas/tecnologias de ETL que você utiliza no trabalho como Data Analyst?\n\nEssa pergunta/resposta pode ser vantajosa no treino do modelo, pois as ferramentas de ETL utilizadas podem ser um indicador da complexidade e do volume de dados que um Data Analyst trabalha com, o que pode influenciar na remuneração. Além disso, a habilidade em utilizar ferramentas de ETL pode ser uma habilidade valiosa para um Data Analyst.\n\nNo entanto, é importante considerar que essa pergunta/resposta pode gerar um viés discriminativo, pois pode favorecer indivíduos que trabalham com grandes volumes de dados ou que utilizam ferramentas mais complexas, o que pode não ser um indicador direto da remuneração.\n\nEm resumo, essa pergunta/resposta pode ser vantajosa no treino do modelo, pois fornece informações sobre as habilidades e ferramentas utilizadas por um Data Analyst, mas é importante considerar o risco de viés discriminativo. //YES"
+    },
+    "P7_c": {
+        "question": "Sua empresa utiliza alguma das ferramentas listadas para dar mais autonomia em análise de dados para as áreas de negócio?",
+        "alternativas": {
+            "P7_c_1": "Ferramentas de AutoML como H2O.ai, Data Robot, BigML etc.",
+            "P7_c_2": "\"\"Point and Click\"\" Analytics como Alteryx, Knime, Rapidminer etc.",
+            "P7_c_3": "Product metricts & Insights como Mixpanel, Amplitude, Adobe Analytics.",
+            "P7_c_4": "Ferramentas de análise dentro de ferramentas de CRM como Salesforce Einstein Anaytics ou Zendesk dashboards.",
+            "P7_c_5": "Minha empresa não utiliza essas ferramentas.",
+            "P7_c_6": "Não sei informar."
+        },
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P7_c:\n\nEssa pergunta/resposta parece não ser diretamente relacionada à habilidade ou experiência do profissional em análise de dados, mas sim à infraestrutura tecnológica da empresa em que ele trabalha. Embora seja interessante saber se a empresa utiliza ferramentas de análise de dados, isso não é um indicador direto da habilidade do profissional em análise de dados.\n\nAlém disso, essa pergunta/resposta pode gerar um viés discriminativo, pois profissionais que trabalham em empresas menores ou com orçamentos mais limitados podem não ter acesso às mesmas ferramentas que profissionais que trabalham em empresas maiores ou mais bem-sucedidas.\n\nPortanto, essa pergunta/resposta não é vantajosa para o treino do modelo de predição de faixa salarial. //NO"
+    },
+    "P7_d": {
+        "question": "Em qual das opções abaixo você gasta a maior parte do seu tempo de trabalho?",
+        "alternativas": {
+            "P7_d_1": "Processando e analisando dados utilizando linguagens de programação como Python, R etc.",
+            "P7_d_2": "Realizando construções de dashboards em ferramentas de BI como PowerBI, Tableau, Looker, Qlik etc.",
+            "P7_d_3": "Criando consultas através da linguagem SQL para exportar informações e compartilhar com as áreas de negócio.",
+            "P7_d_4": "Utilizando APIs para extrair dados e complementar minhas análises.",
+            "P7_d_5": "Realizando experimentos e estudos utilizando metodologias estatísticas como teste de hipótese, modelos de regressão etc.",
+            "P7_d_6": "Desenvolvendo/cuidando da manutenção de ETLs utilizando tecnologias como Talend, Pentaho, Airflow, Dataflow etc.",
+            "P7_d_7": "Atuando na modelagem dos dados, com o objetivo de criar conjuntos de dados, Data Warehouses, Data Marts etc.",
+            "P7_d_8": "Desenvolvendo/cuidando da manutenção de planilhas do Excel ou Google Sheets para atender as áreas de negócio.",
+            "P7_d_9": "Utilizando ferramentas avançadas de estatística como SAS, SPSS, Stata etc, para realizar análises.",
+            "P7_d_10": "Nenhuma das opções listadas refletem meu dia a dia."
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P7_d:\n\nEssa pergunta/resposta parece ser vantajosa para o modelo de predição de faixa salarial. Ela fornece informações sobre as habilidades e ferramentas utilizadas pelo profissional, o que pode ser relevante para entender suas habilidades e competências.\n\nRisco de viés discriminativo: Nenhum risco aparente de viés discriminativo, pois a pergunta/resposta se refere a habilidades e ferramentas utilizadas, não a características pessoais ou demográficas.\n\nRazão: Essa pergunta/resposta pode ajudar a identificar profissionais com habilidades específicas em áreas como análise de dados, modelagem de dados, desenvolvimento de ETLs, etc. Isso pode ser relevante para prever a faixa salarial, pois profissionais com habilidades mais especializadas podem ter uma faixa salarial mais alta.\n\n//YES"
+    },
+    "P8_a": {
+        "question": "Quais das opções abaixo fazem parte da sua rotina no trabalho atual com ciência de dados?",
+        "alternativas": {
+            "P8_a_1": "Estudos Ad-hoc com o objetivo de confirmar hipóteses, realizar modelos preditivos, forecasts, análise de cluster para resolver problemas pontuais e responder perguntas das áreas de negócio.",
+            "P8_a_2": "Sou responsável pela coleta e limpeza dos dados que uso para análise e modelagem.",
+            "P8_a_3": "Sou responsável por entrar em contato com os times de negócio para definição do problema, identificar a solução e apresentação de resultados.",
+            "P8_a_4": "Desenvolvo modelos de Machine Learning com o objetivo de colocar em produção em sistemas (produtos de dados.",
+            "P8_a_5": "Sou responsável por colocar modelos em produção, criar os pipelines de dados, APIs de consumo e monitoramento.",
+            "P8_a_6": "Cuido da manutenção de modelos de Machine Learning já em produção, atuando no monitoramento, ajustes e refatoração quando necessário.",
+            "P8_a_7": "Realizo construções de dashboards em ferramentas de BI como PowerBI, Tableau, Looker, Qlik, etc",
+            "P8_a_8": "Utilizo ferramentas avançadas de estatística como SAS, SPSS, Stata etc, para realizar análises estatísticas e ajustar modelos.",
+            "P8_a_9": "Crio e dou manutenção em ETLs, DAGs e automações de pipelines de dados.",
+            "P8_a_10": "Crio e gerencio soluções de Feature Store e cultura de MLOps.",
+            "P8_a_11": "Sou responsável por criar e manter a infra que meus modelos e soluções rodam (clusters, servidores, API, containers, etc.",
+            "P8_a_12": "Treino e aplico LLMs para solucionar problemas de negócio."
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P8_a:\n\nEssa pergunta/resposta é relevante para o modelo de previsão de faixa salarial, pois fornece informações sobre as habilidades e responsabilidades do profissional em relação à ciência de dados. Isso pode ajudar a entender melhor as necessidades e habilidades do mercado de trabalho em dados no Brasil.\n\nA pergunta/resposta não gera viés discriminativo indesejado, pois não apresenta características pessoais ou demográficas que possam influenciar a previsão de faixa salarial.\n\nRazão: Essa pergunta/resposta fornece informações sobre as habilidades e responsabilidades do profissional em relação à ciência de dados, o que é relevante para a previsão de faixa salarial. Além disso, não apresenta características pessoais ou demográficas que possam influenciar a previsão.\n\n//YES"
+    },
+    "P8_b": {
+        "question": "Quais as técnicas e métodos listados abaixo você costuma utilizar no trabalho?",
+        "alternativas": {
+            "P8_b_1": "Utilizo modelos de regressão (linear, logística, GLM",
+            "P8_b_2": "Utilizo redes neurais ou modelos baseados em árvore para criar modelos de classificação",
+            "P8_b_3": "Desenvolvo sistemas de recomendação (RecSys",
+            "P8_b_4": "Utilizo métodos estatísticos Bayesianos para analisar dados",
+            "P8_b_5": "Utilizo técnicas de NLP (Natural Language Processing para análisar dados não-estruturados",
+            "P8_b_6": "Utilizo métodos estatísticos clássicos (Testes de hipótese, análise multivariada, sobrevivência, dados longitudinais, inferência estatistica para analisar dados",
+            "P8_b_7": "Utilizo cadeias de Markov ou HMMs para realizar análises de dados",
+            "P8_b_8": "Desenvolvo técnicas de Clusterização (K-means, Spectral, DBScan etc",
+            "P8_b_9": "Realizo previsões através de modelos de Séries Temporais (Time Series",
+            "P8_b_10": "Utilizo modelos de Reinforcement Learning (aprendizado por reforço",
+            "P8_b_11": "Utilizo modelos de Machine Learning para detecção de fraude",
+            "P8_b_12": "Utilizo métodos de Visão Computacional",
+            "P8_b_13": "Utilizo modelos de Detecção de Churn",
+            "P8_b_14": "Utilizo LLMs para solucionar problemas de negócio"
+        },
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P8_b: Quais as técnicas e métodos listados abaixo você costuma utilizar no trabalho?\n\nEssa pergunta/resposta é relevante para o modelo de previsão de faixa salarial, pois fornece informações sobre as habilidades e ferramentas técnicas do indivíduo, o que pode ser um indicador importante da sua capacidade de realizar tarefas específicas e da sua valorização no mercado.\n\nA pergunta/resposta não gera viés discriminativo indesejado, pois não apresenta características pessoais ou demográficas que possam influenciar a previsão de faixa salarial.\n\nRazão: Essa pergunta/resposta fornece informações sobre as habilidades técnicas do indivíduo, o que é um fator importante para a previsão de faixa salarial. Além disso, a lista de opções é ampla e não apresenta nenhuma característica que possa ser considerada discriminatória.\n\n//YES"
+    },
+    "P8_3": {
+        "question": "Quais dessas tecnologias fazem parte do seu dia a dia como cientista de dados?",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P8_3: Quais dessas tecnologias fazem parte do seu dia a dia como cientista de dados?\n\nEssa pergunta/resposta é vantajosa para o treino do modelo de predição de faixa salarial. Ela fornece informações sobre as habilidades e ferramentas utilizadas pelo cientista de dados, o que pode ser um indicador importante da sua capacidade e experiência em lidar com dados complexos.\n\n//YES"
+    },
+    "P8_c_1": {
+        "question": "Ferramentas de BI (PowerBI, Looker, Tableau, Qlik etc",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise: A pergunta/resposta P8_c_1 (\"Ferramentas de BI (PowerBI, Looker, Tableau, Qlik etc)\") pode ser vantajosa no treino do modelo, pois as ferramentas de Business Intelligence (BI) são comumente utilizadas em empresas para análise e visualização de dados. Além disso, a habilidade em utilizar essas ferramentas pode ser um indicador de habilidades mais avançadas em análise de dados.\n\nRisco de viés discriminativo: Não há risco de viés discriminativo, pois a pergunta/resposta se refere a habilidades técnicas e não a características pessoais ou demográficas.\n\nRazão: A pergunta/resposta P8_c_1 é relevante para o modelo de predição de faixa salarial, pois as habilidades em ferramentas de BI podem ser um indicador de valor para as empresas e, consequentemente, influenciar na remuneração.\n\n//YES"
+    },
+    "P8_c_2": {
+        "question": "Planilhas (Excel, Google Sheets etc",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "A pergunta/resposta P8_c_2: Planilhas (Excel, Google Sheets etc. é uma característica que descreve as habilidades do profissional em lidar com planilhas e ferramentas de análise de dados.\n\nAnálise: Essa característica pode ser vantajosa no treino do modelo, pois a habilidade em lidar com planilhas é uma habilidade fundamental em muitas áreas de trabalho em dados. Além disso, a capacidade de trabalhar com planilhas pode ser um indicador de habilidades em análise de dados e manipulação de dados.\n\nRisco de viés discriminativo: Não há risco de viés discriminativo, pois a habilidade em lidar com planilhas não é uma característica que possa ser associada a características pessoais ou demográficas.\n\nRazão: Essa característica é relevante para a previsão de faixa salarial, pois profissionais que são habilidosos em lidar com planilhas podem ter mais chances de obter um salário mais alto.\n\n//YES"
+    },
+    "P8_c_3": {
+        "question": "Ambientes de desenvolvimento local (R-studio, JupyterLab, Anaconda",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P8_c_3: Ambientes de desenvolvimento local (R-studio, JupyterLab, Anaconda.\n\nEssa pergunta/resposta pode ser considerada vantajosa para o modelo de predição de faixa salarial, pois:\n\n* Ela fornece informações sobre as ferramentas e tecnologias utilizadas pelo profissional, o que pode ser relevante para avaliar suas habilidades e competências.\n* Pode ajudar a identificar profissionais que possuem habilidades mais especializadas e, portanto, mais valorizadas no mercado.\n\nNo entanto, é importante considerar que essa pergunta/resposta pode gerar um viés discriminativo se os ambientes de desenvolvimento local forem mais comuns em certos grupos demográficos ou profissionais. Por exemplo, se os profissionais que trabalham com R-studio forem mais comuns em certas regiões ou grupos etários, isso pode influenciar a predição de faixa salarial de forma desejada.\n\nEm resumo, a pergunta/resposta P8_c_3 é vantajosa para o modelo de predição de faixa salarial, pois fornece informações relevantes sobre as habilidades e competências dos profissionais, mas é importante considerar a possibilidade de viés discriminativo e tomar medidas para mitigá-lo. //YES"
+    },
+    "P8_c_4": {
+        "question": "Ambientes de desenvolvimento na nuvem (Google Colab, AWS Sagemaker, Kaggle Notebooks etc",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P8_c_4: Ambientes de desenvolvimento na nuvem (Google Colab, AWS Sagemaker, Kaggle Notebooks etc.\n\nEssa pergunta/resposta pode ser considerada vantajosa para o modelo de predição de faixa salarial, pois:\n\n* Ela fornece informações sobre as ferramentas e tecnologias utilizadas pelo profissional, o que pode ser relevante para avaliar suas habilidades e competências.\n* A utilização de ambientes de desenvolvimento na nuvem pode ser um indicador de habilidades em áreas como automação, escalabilidade e gestão de infraestrutura.\n\nNo entanto, é importante considerar que essa pergunta/resposta pode gerar um viés discriminativo se os profissionais que utilizam essas ferramentas forem mais propensos a serem remunerados mais altos, independentemente de suas habilidades reais. Isso porque a pergunta/resposta pode estar mais relacionada à disponibilidade de recursos do que à habilidade real do profissional.\n\nRazão: A pergunta/resposta pode ser um indicador de acesso a recursos e oportunidades, o que pode influenciar a remuneração.\n\n//YES"
+    },
+    "P8_c_5": {
+        "question": "Ferramentas de AutoML (Datarobot, H2O, Auto-Keras etc",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P8_c_5: Ferramentas de AutoML (Datarobot, H2O, Auto-Keras etc.\n\nEssa pergunta/resposta pode não ser vantajosa para o modelo de predição de faixa salarial. Embora as ferramentas de AutoML sejam relevantes para a área de dados, elas não são diretamente relacionadas à habilidade ou experiência do profissional, o que é o objetivo do modelo.\n\nAlém disso, a pergunta/resposta pode gerar um viés discriminativo indesejado, pois profissionais que trabalham com ferramentas de AutoML podem ser mais propensos a ter uma remuneração mais alta, independentemente de suas habilidades e experiências.\n\nPortanto, não é uma pergunta/resposta adequada para o modelo. //NO"
+    },
+    "P8_c_6": {
+        "question": "Ferramentas de ETL (Apache Airflow, NiFi, Stitch, Fivetran, Pentaho etc",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P8_c_6: Ferramentas de ETL (Apache Airflow, NiFi, Stitch, Fivetran, Pentaho etc.\n\nEssa pergunta/resposta não é diretamente relacionada à remuneração de cargos, pois é uma característica técnica específica de ferramentas de ETL (Extract, Transform, Load). Embora seja importante para o desempenho de um profissional de dados, não é um indicador robusto para prever a remuneração.\n\nAlém disso, essa pergunta/resposta pode gerar um viés discriminativo, pois profissionais que trabalham com ferramentas mais específicas ou menos comuns podem ser penalizados em relação a seus colegas que trabalham com ferramentas mais populares.\n\nPortanto, essa pergunta/resposta não é vantajosa para o treino do modelo. //NO"
+    },
+    "P8_c_7": {
+        "question": "Plataformas de Machine Learning (TensorFlow, Azure Machine Learning, Kubeflow etc",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P8_c_7: Plataformas de Machine Learning (TensorFlow, Azure Machine Learning, Kubeflow etc.\n\nEssa pergunta/resposta pode ser considerada vantajosa para o modelo de predição de faixa salarial, pois:\n\n* A escolha de plataformas de Machine Learning pode ser um indicador de habilidades e conhecimentos técnicos do profissional, o que pode influenciar na remuneração.\n* A pergunta não apresenta viés discriminativo indesejado, pois não se refere a características pessoais ou demográficas do profissional.\n\nRazão: A pergunta/resposta P8_c_7 pode ajudar a capturar a habilidade do profissional em trabalhar com tecnologias específicas de Machine Learning, o que pode ser um fator importante na determinação da remuneração.\n\n//YES"
+    },
+    "P8_c_8": {
+        "question": "Feature Store (Feast, Hopsworks, AWS Feature Store, Databricks Feature Store etc",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P8_c_8: Feature Store (Feast, Hopsworks, AWS Feature Store, Databricks Feature Store etc.\n\nEssa pergunta/resposta não é diretamente relacionada à habilidade ou informação da pessoa ou vaga, mas sim à tecnologia utilizada para armazenar e gerenciar features. Isso pode não ser relevante para o modelo de previsão de faixa salarial.\n\nAlém disso, essa pergunta/resposta pode gerar um viés discriminativo indesejado, pois empresas que utilizam tecnologias mais avançadas podem ser mais propensas a ter um maior salário, independentemente da habilidade ou informação da pessoa ou vaga.\n\nPortanto, essa pergunta/resposta não é vantajosa para o treino do modelo. //NO"
+    },
+    "P8_c_9": {
+        "question": "Sistemas de controle de versão (Github, DVC, Neptune, Gitlab etc",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise: A pergunta/resposta P8_c_9 refere-se à habilidade em sistemas de controle de versão, o que é relevante para a profissão de dados. Isso pode ajudar a prever a remuneração de um cargo, pois a habilidade em gerenciar versões de código é uma habilidade valiosa em muitas áreas de dados.\n\nRisco de viés discriminativo: Não há risco de viés discriminativo, pois a habilidade em sistemas de controle de versão é uma habilidade técnica neutra e não está relacionada a características pessoais ou demográficas.\n\nConclusão: A pergunta/resposta P8_c_9 é vantajosa para o modelo de predição de remuneração, pois ajuda a capturar habilidades técnicas relevantes para a profissão de dados. //YES"
+    },
+    "P8_c_10": {
+        "question": "Plataformas de Data Apps (Streamlit, Shiny, Plotly Dash etc",
+        "alternativas": null,
+        "is_good_feature": false,
+        "answer": "Análise: A pergunta P8_c_10 se refere às plataformas de Data Apps utilizadas pelo profissional. Embora seja interessante saber quais plataformas são mais comuns, essa pergunta não é diretamente relacionada à remuneração. A habilidade em utilizar plataformas de Data Apps pode ser um indicador de habilidades mais amplos, como habilidades em desenvolvimento de software ou habilidades em visualização de dados.\n\nRisco de viés discriminativo: Sim, há um risco de viés discriminativo, pois a pergunta pode favorecer profissionais com habilidades em desenvolvimento de software, que podem ser mais comuns em certos grupos demográficos.\n\nConclusão: Embora a pergunta P8_c_10 seja interessante, não é diretamente relevante para a previsão de remuneração e pode gerar um viés discriminativo. //NO"
+    },
+    "P8_c_11": {
+        "question": "Ferramentas de estatística avançada como SPSS, SAS, etc.",
+        "alternativas": null,
+        "is_good_feature": true,
+        "answer": "Análise da pergunta/resposta P8_c_11: Ferramentas de estatística avançada como SPSS, SAS, etc.\n\nEssa pergunta/resposta pode ser considerada vantajosa no treino do modelo, pois:\n\n* Ela fornece informações sobre as habilidades técnicas do profissional em estatística avançada, o que pode ser relevante para a previsão da faixa salarial.\n* As ferramentas mencionadas (SPSS, SAS, etc.) são comuns e bem estabelecidas no mercado, o que facilita a interpretação e a comparação entre os dados.\n\nNo entanto, é importante considerar que essa pergunta/resposta pode gerar um viés discriminativo indesejado se os profissionais que utilizam essas ferramentas tiverem uma distribuição demográfica ou socioeconômica diferente daqueles que não as utilizam. Por exemplo, se os profissionais que utilizam essas ferramentas forem mais provavelmente homens brancos, isso pode levar a uma modelagem que não seja justa e equitativa.\n\nEm resumo, a pergunta/resposta P8_c_11 é vantajosa para o treino do modelo, pois fornece informações relevantes sobre as habilidades técnicas do profissional, mas é importante considerar a possibilidade de viés discriminativo e tomar medidas para mitigá-lo. //YES"
+    },
+    "P8_d": {
+        "question": "Em qual das opções abaixo você gasta a maior parte do seu tempo no trabalho?",
+        "alternativas": {
+            "P8_d_1": "Estudos Ad-hoc com o objetivo de confirmar hipóteses, realizar modelos preditivos, forecasts, análise de cluster para resolver problemas pontuais e responder perguntas das áreas de negócio.",
+            "P8_d_2": "Coletando e limpando os dados que uso para análise e modelagem.",
+            "P8_d_3": "Entrando em contato com os times de negócio para definição do problema, identificar a solução e apresentação de resultados.",
+            "P8_d_4": "Desenvolvendo modelos de Machine Learning com o objetivo de colocar em produção em sistemas (produtos de dados.",
+            "P8_d_5": "Colocando modelos em produção, criando os pipelines de dados, APIs de consumo e monitoramento.",
+            "P8_d_6": "Cuidando da manutenção de modelos de Machine Learning já em produção, atuando no monitoramento, ajustes e refatoração quando necessário.",
+            "P8_d_7": "Realizando construções de dashboards em ferramentas de BI como PowerBI, Tableau, Looker, Qlik, etc.",
+            "P8_d_8": "Utilizando ferramentas avançadas de estatística como SAS, SPSS, Stata etc, para realizar análises.",
+            "P8_d_9": "Criando e dando manutenção em ETLs, DAGs e automações de pipelines de dados.",
+            "P8_d_10": "Criando e gerenciando soluções de Feature Store e cultura de MLOps.",
+            "P8_d_11": "Criando e mantendo a infra que meus modelos e soluções rodam (clusters, servidores, API, containers, etc.",
+            "P8_d_12": "Treinando e aplicando LLMs para solucionar problemas de negócio."
+        },
+        "is_good_feature": false,
+        "answer": "Análise da pergunta/resposta P8_d:\n\nA pergunta P8_d é sobre a distribuição do tempo do trabalho, o que pode ser relevante para entender as habilidades e responsabilidades do profissional. No entanto, é importante notar que a resposta pode ser subjetiva e pode variar de pessoa para pessoa.\n\nAnálise crítica:\n\n* A pergunta P8_d pode não ser vantajosa se a resposta for subjetiva e não refletir a realidade do trabalho do profissional.\n* A pergunta P8_d pode gerar viés discriminativo se as respostas forem influenciadas por fatores como gênero, idade, etc.\n\nRazão: A pergunta P8_d não é uma métrica objetiva e pode ser influenciada por fatores pessoais, o que pode levar a resultados inconsistentes e não representativos.\n\nConclusão: A pergunta P8_d não é vantajosa para o treino do modelo de predição de faixa salarial. //NO"
+    }
+}
