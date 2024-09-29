@@ -1,0 +1,3212 @@
+{
+    "0": [
+        {
+            "col_id": "P0",
+            "Pergunta": "id",
+            "Parte_id": "0",
+            "Pergunta_id": null,
+            "Opcao_id": null,
+            "Parte": "id"
+        }
+    ],
+    "1": [
+        {
+            "col_id": "P1_a",
+            "Pergunta": "Idade",
+            "Parte_id": "1",
+            "Pergunta_id": "a",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_a_1",
+            "Pergunta": "Faixa idade",
+            "Parte_id": "1",
+            "Pergunta_id": "a",
+            "Opcao_id": "1",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_b",
+            "Pergunta": "Genero",
+            "Parte_id": "1",
+            "Pergunta_id": "b",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_c",
+            "Pergunta": "Cor/raca/etnia",
+            "Parte_id": "1",
+            "Pergunta_id": "c",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_d",
+            "Pergunta": "PCD",
+            "Parte_id": "1",
+            "Pergunta_id": "d",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_e",
+            "Pergunta": "experiencia_profissional_prejudicada",
+            "Parte_id": "1",
+            "Pergunta_id": "e",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_e_1",
+            "Pergunta": "Não acredito que minha experiência profissional seja afetada",
+            "Parte_id": "1",
+            "Pergunta_id": "e",
+            "Opcao_id": "1",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_e_2",
+            "Pergunta": "Experiencia prejudicada devido a minha Cor Raça Etnia",
+            "Parte_id": "1",
+            "Pergunta_id": "e",
+            "Opcao_id": "2",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_e_3",
+            "Pergunta": "Experiencia prejudicada devido a minha identidade de gênero",
+            "Parte_id": "1",
+            "Pergunta_id": "e",
+            "Opcao_id": "3",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_e_4",
+            "Pergunta": "Experiencia prejudicada devido ao fato de ser PCD",
+            "Parte_id": "1",
+            "Pergunta_id": "e",
+            "Opcao_id": "4",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_f",
+            "Pergunta": "aspectos_prejudicados",
+            "Parte_id": "1",
+            "Pergunta_id": "f",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_f_1",
+            "Pergunta": "Quantidade de oportunidades de emprego/vagas recebidas",
+            "Parte_id": "1",
+            "Pergunta_id": "f",
+            "Opcao_id": "1",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_f_2",
+            "Pergunta": "Senioridade das vagas recebidas em relação à sua experiência",
+            "Parte_id": "1",
+            "Pergunta_id": "f",
+            "Opcao_id": "2",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_f_3",
+            "Pergunta": "Aprovação em processos seletivos/entrevistas",
+            "Parte_id": "1",
+            "Pergunta_id": "f",
+            "Opcao_id": "3",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_f_4",
+            "Pergunta": "Oportunidades de progressão de carreira",
+            "Parte_id": "1",
+            "Pergunta_id": "f",
+            "Opcao_id": "4",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_f_5",
+            "Pergunta": "Velocidade de progressão de carreira",
+            "Parte_id": "1",
+            "Pergunta_id": "f",
+            "Opcao_id": "5",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_f_6",
+            "Pergunta": "Nível de cobrança no trabalho/Stress no trabalho",
+            "Parte_id": "1",
+            "Pergunta_id": "f",
+            "Opcao_id": "6",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_f_7",
+            "Pergunta": "Atenção dada diante das minhas opiniões e ideias",
+            "Parte_id": "1",
+            "Pergunta_id": "f",
+            "Opcao_id": "7",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_f_8",
+            "Pergunta": "Relação com outros membros da empresa, em momentos de trabalho",
+            "Parte_id": "1",
+            "Pergunta_id": "f",
+            "Opcao_id": "8",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_f_9",
+            "Pergunta": "Relação com outros membros da empresa, em momentos de integração e outros momentos fora do trabalho",
+            "Parte_id": "1",
+            "Pergunta_id": "f",
+            "Opcao_id": "9",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_g",
+            "Pergunta": "vive_no_brasil",
+            "Parte_id": "1",
+            "Pergunta_id": "g",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_i",
+            "Pergunta": "Estado onde mora",
+            "Parte_id": "1",
+            "Pergunta_id": "i",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_i_1",
+            "Pergunta": "uf onde mora",
+            "Parte_id": "1",
+            "Pergunta_id": "i",
+            "Opcao_id": "1",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_i_2",
+            "Pergunta": "Regiao onde mora",
+            "Parte_id": "1",
+            "Pergunta_id": "i",
+            "Opcao_id": "2",
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_j",
+            "Pergunta": "Mudou de Estado?",
+            "Parte_id": "1",
+            "Pergunta_id": "j",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_k",
+            "Pergunta": "Regiao de origem",
+            "Parte_id": "1",
+            "Pergunta_id": "k",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_l",
+            "Pergunta": "Nivel de Ensino",
+            "Parte_id": "1",
+            "Pergunta_id": "l",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_m",
+            "Pergunta": "Área de Formação",
+            "Parte_id": "1",
+            "Pergunta_id": "m",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        }
+    ],
+    "2": [
+        {
+            "col_id": "P2_a",
+            "Pergunta": "Qual sua situação atual de trabalho?",
+            "Parte_id": "2",
+            "Pergunta_id": "a",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_b",
+            "Pergunta": "Setor",
+            "Parte_id": "2",
+            "Pergunta_id": "b",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_c",
+            "Pergunta": "Numero de Funcionarios",
+            "Parte_id": "2",
+            "Pergunta_id": "c",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_d",
+            "Pergunta": "Gestor?",
+            "Parte_id": "2",
+            "Pergunta_id": "d",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_e",
+            "Pergunta": "Cargo como Gestor",
+            "Parte_id": "2",
+            "Pergunta_id": "e",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_f",
+            "Pergunta": "Cargo Atual",
+            "Parte_id": "2",
+            "Pergunta_id": "f",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_g",
+            "Pergunta": "Nivel",
+            "Parte_id": "2",
+            "Pergunta_id": "g",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_h",
+            "Pergunta": "Faixa salarial",
+            "Parte_id": "2",
+            "Pergunta_id": "h",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_i",
+            "Pergunta": "Quanto tempo de experiência na área de dados você tem?",
+            "Parte_id": "2",
+            "Pergunta_id": "i",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_j",
+            "Pergunta": "Quanto tempo de experiência na área de TI/Engenharia de Software você teve antes de começar a trabalhar na área de dados?",
+            "Parte_id": "2",
+            "Pergunta_id": "j",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_k",
+            "Pergunta": "Você está satisfeito na sua empresa atual?",
+            "Parte_id": "2",
+            "Pergunta_id": "k",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_l",
+            "Pergunta": "Qual o principal motivo da sua insatisfação com a empresa atual?",
+            "Parte_id": "2",
+            "Pergunta_id": "l",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_l_1",
+            "Pergunta": "Falta de oportunidade de crescimento no emprego atual",
+            "Parte_id": "2",
+            "Pergunta_id": "l",
+            "Opcao_id": "1",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_l_2",
+            "Pergunta": "Salário atual não corresponde ao mercado",
+            "Parte_id": "2",
+            "Pergunta_id": "l",
+            "Opcao_id": "2",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_l_3",
+            "Pergunta": "Não tenho uma boa relação com meu líder/gestor",
+            "Parte_id": "2",
+            "Pergunta_id": "l",
+            "Opcao_id": "3",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_l_4",
+            "Pergunta": "Gostaria de trabalhar em em outra área de atuação",
+            "Parte_id": "2",
+            "Pergunta_id": "l",
+            "Opcao_id": "4",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_l_5",
+            "Pergunta": "Gostaria de receber mais benefícios",
+            "Parte_id": "2",
+            "Pergunta_id": "l",
+            "Opcao_id": "5",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_l_6",
+            "Pergunta": "O clima de trabalho/ambiente não é bom",
+            "Parte_id": "2",
+            "Pergunta_id": "l",
+            "Opcao_id": "6",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_l_7",
+            "Pergunta": "Falta de maturidade analítica na empresa",
+            "Parte_id": "2",
+            "Pergunta_id": "l",
+            "Opcao_id": "7",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_m",
+            "Pergunta": "Você participou de entrevistas de emprego nos últimos 6 meses?",
+            "Parte_id": "2",
+            "Pergunta_id": "m",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_n",
+            "Pergunta": "Você pretende mudar de emprego nos próximos 6 meses?",
+            "Parte_id": "2",
+            "Pergunta_id": "n",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_o",
+            "Pergunta": "Quais os principais critérios que você leva em consideração no momento de decidir onde trabalhar?",
+            "Parte_id": "2",
+            "Pergunta_id": "o",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_o_1",
+            "Pergunta": "Remuneração/Salário",
+            "Parte_id": "2",
+            "Pergunta_id": "o",
+            "Opcao_id": "1",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_o_2",
+            "Pergunta": "Benefícios",
+            "Parte_id": "2",
+            "Pergunta_id": "o",
+            "Opcao_id": "2",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_o_3",
+            "Pergunta": "Propósito do trabalho e da empresa",
+            "Parte_id": "2",
+            "Pergunta_id": "o",
+            "Opcao_id": "3",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_o_4",
+            "Pergunta": "Flexibilidade de trabalho remoto",
+            "Parte_id": "2",
+            "Pergunta_id": "o",
+            "Opcao_id": "4",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_o_5",
+            "Pergunta": "Ambiente e clima de trabalho",
+            "Parte_id": "2",
+            "Pergunta_id": "o",
+            "Opcao_id": "5",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_o_6",
+            "Pergunta": "Oportunidade de aprendizado e trabalhar com referências na área",
+            "Parte_id": "2",
+            "Pergunta_id": "o",
+            "Opcao_id": "6",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_o_7",
+            "Pergunta": "Plano de carreira e oportunidades de crescimento profissional",
+            "Parte_id": "2",
+            "Pergunta_id": "o",
+            "Opcao_id": "7",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_o_8",
+            "Pergunta": "Maturidade da empresa em termos de tecnologia e dados",
+            "Parte_id": "2",
+            "Pergunta_id": "o",
+            "Opcao_id": "8",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_o_9",
+            "Pergunta": "Qualidade dos gestores e líderes",
+            "Parte_id": "2",
+            "Pergunta_id": "o",
+            "Opcao_id": "9",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_o_10",
+            "Pergunta": "Reputação que a empresa tem no mercado",
+            "Parte_id": "2",
+            "Pergunta_id": "o",
+            "Opcao_id": "10",
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_q",
+            "Pergunta": "Empresa que trabaha passou por layoff em 2023",
+            "Parte_id": "2",
+            "Pergunta_id": "q",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_r",
+            "Pergunta": "Atualmente qual a sua forma de trabalho?",
+            "Parte_id": "2",
+            "Pergunta_id": "r",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_s",
+            "Pergunta": "Qual a forma de trabalho ideal para você?",
+            "Parte_id": "2",
+            "Pergunta_id": "s",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        },
+        {
+            "col_id": "P2_t",
+            "Pergunta": "Caso sua empresa decida pelo modelo 100% presencial qual será sua atitude?",
+            "Parte_id": "2",
+            "Pergunta_id": "t",
+            "Opcao_id": null,
+            "Parte": "Dados sobre carreira"
+        }
+    ],
+    "3": [
+        {
+            "col_id": "P3_a",
+            "Pergunta": "Qual o número aproximado de pessoas que atuam com dados na sua empresa hoje?",
+            "Parte_id": "3",
+            "Pergunta_id": "a",
+            "Opcao_id": null,
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_b",
+            "Pergunta": "Quais desses papéis/cargos fazem parte do time (ou chapter de dados da sua empresa?",
+            "Parte_id": "3",
+            "Pergunta_id": "b",
+            "Opcao_id": null,
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_b_1",
+            "Pergunta": "Analytics Engineer",
+            "Parte_id": "3",
+            "Pergunta_id": "b",
+            "Opcao_id": "1",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_b_2",
+            "Pergunta": "Engenharia de Dados/Data Engineer",
+            "Parte_id": "3",
+            "Pergunta_id": "b",
+            "Opcao_id": "2",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_b_3",
+            "Pergunta": "Analista de Dados/Data Analyst",
+            "Parte_id": "3",
+            "Pergunta_id": "b",
+            "Opcao_id": "3",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_b_4",
+            "Pergunta": "Cientista de Dados/Data Scientist",
+            "Parte_id": "3",
+            "Pergunta_id": "b",
+            "Opcao_id": "4",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_b_5",
+            "Pergunta": "Database Administrator/DBA",
+            "Parte_id": "3",
+            "Pergunta_id": "b",
+            "Opcao_id": "5",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_b_6",
+            "Pergunta": "Analista de Business Intelligence/BI",
+            "Parte_id": "3",
+            "Pergunta_id": "b",
+            "Opcao_id": "6",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_b_7",
+            "Pergunta": "Arquiteto de Dados/Data Architect",
+            "Parte_id": "3",
+            "Pergunta_id": "b",
+            "Opcao_id": "7",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_b_8",
+            "Pergunta": "Data Product Manager/DPM",
+            "Parte_id": "3",
+            "Pergunta_id": "b",
+            "Opcao_id": "8",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_b_9",
+            "Pergunta": "Business Analyst",
+            "Parte_id": "3",
+            "Pergunta_id": "b",
+            "Opcao_id": "9",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_c",
+            "Pergunta": "Quais dessas responsabilidades fazem parte da sua rotina atual de trabalho como gestor?",
+            "Parte_id": "3",
+            "Pergunta_id": "c",
+            "Opcao_id": null,
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_c_1",
+            "Pergunta": "Pensar na visão de longo prazo de dados da empresa e fortalecimento da cultura analítica da companhia.",
+            "Parte_id": "3",
+            "Pergunta_id": "c",
+            "Opcao_id": "1",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_c_2",
+            "Pergunta": "Organização de treinamentos e iniciativas com o objetivo de aumentar a maturidade analítica das áreas de negócios.",
+            "Parte_id": "3",
+            "Pergunta_id": "c",
+            "Opcao_id": "2",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_c_3",
+            "Pergunta": "Atração, seleção e contratação de talentos para o time de dados.",
+            "Parte_id": "3",
+            "Pergunta_id": "c",
+            "Opcao_id": "3",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_c_4",
+            "Pergunta": "Decisão sobre contratação de ferramentas e tecnologias relacionadas a dados.",
+            "Parte_id": "3",
+            "Pergunta_id": "c",
+            "Opcao_id": "4",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_c_5",
+            "Pergunta": "Sou gestor da equipe responsável pela engenharia de dados e por manter o Data Lake da empresa como fonte única dos dados, garantindo a qualidade e confiabilidade da informação.",
+            "Parte_id": "3",
+            "Pergunta_id": "c",
+            "Opcao_id": "5",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_c_6",
+            "Pergunta": "Sou gestor da equipe responsável pela entrega de dados, estudos, relatórios e dashboards para as áreas de negócio da empresa.",
+            "Parte_id": "3",
+            "Pergunta_id": "c",
+            "Opcao_id": "6",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_c_7",
+            "Pergunta": "Sou gestor da equipe responsável por iniciativas e projetos envolvendo Inteligência Artificial e Machine Learning.",
+            "Parte_id": "3",
+            "Pergunta_id": "c",
+            "Opcao_id": "7",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_c_8",
+            "Pergunta": "Apesar de ser gestor ainda atuo na parte técnica, construindo soluções/análises/modelos etc.",
+            "Parte_id": "3",
+            "Pergunta_id": "c",
+            "Opcao_id": "8",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_c_9",
+            "Pergunta": "Gestão de projetos de dados, cuidando das etapas, equipes envolvidas, atingimento dos objetivos etc.",
+            "Parte_id": "3",
+            "Pergunta_id": "c",
+            "Opcao_id": "9",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_c_10",
+            "Pergunta": "Gestão de produtos de dados, cuidando da visão dos produtos, backlog, feedback de usuários etc.",
+            "Parte_id": "3",
+            "Pergunta_id": "c",
+            "Opcao_id": "10",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_c_11",
+            "Pergunta": "Gestão de pessoas, apoio no desenvolvimento das pessoas, evolução de carreira",
+            "Parte_id": "3",
+            "Pergunta_id": "c",
+            "Opcao_id": "11",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d",
+            "Pergunta": "Quais são os 3 maiores desafios que você tem como gestor no atual momento?",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": null,
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_1",
+            "Pergunta": "a Contratar novos talentos.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "1",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_2",
+            "Pergunta": "b Reter talentos.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "2",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_3",
+            "Pergunta": "c Convencer a empresa a aumentar os investimentos na área de dados.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "3",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_4",
+            "Pergunta": "d Gestão de equipes no ambiente remoto.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "4",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_5",
+            "Pergunta": "e Gestão de projetos envolvendo áreas multidisciplinares da empresa.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "5",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_6",
+            "Pergunta": "f Organizar as informações e garantir a qualidade e confiabilidade.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "6",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_7",
+            "Pergunta": "g Conseguir processar e armazenar um alto volume de dados.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "7",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_8",
+            "Pergunta": "h Conseguir gerar valor para as áreas de negócios através de estudos e experimentos.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "8",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_9",
+            "Pergunta": "i Desenvolver e manter modelos Machine Learning em produção.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "9",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_10",
+            "Pergunta": "j Gerenciar a expectativa das áreas de negócio em relação as entregas das equipes de dados.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "10",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_11",
+            "Pergunta": "k Garantir a manutenção dos projetos e modelos em produção, em meio ao crescimento da empresa.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "11",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_12",
+            "Pergunta": "Conseguir levar inovação para a empresa através dos dados.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "12",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_13",
+            "Pergunta": "Garantir retorno do investimento (ROI em projetos de dados.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "13",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_d_14",
+            "Pergunta": "Dividir o tempo entre entregas técnicas e gestão.",
+            "Parte_id": "3",
+            "Pergunta_id": "d",
+            "Opcao_id": "14",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_e",
+            "Pergunta": "AI Generativa é uma prioridade em sua empresa?",
+            "Parte_id": "3",
+            "Pergunta_id": "e",
+            "Opcao_id": null,
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_f",
+            "Pergunta": "Tipos de uso de AI Generativa e LLMs na empresa",
+            "Parte_id": "3",
+            "Pergunta_id": "f",
+            "Opcao_id": null,
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_f_1",
+            "Pergunta": "Colaboradores usando AI generativa de forma independente e descentralizada",
+            "Parte_id": "3",
+            "Pergunta_id": "f",
+            "Opcao_id": "1",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_f_2",
+            "Pergunta": "Direcionamento centralizado do uso de AI generativa",
+            "Parte_id": "3",
+            "Pergunta_id": "f",
+            "Opcao_id": "2",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_f_3",
+            "Pergunta": "Desenvolvedores utilizando Copilots",
+            "Parte_id": "3",
+            "Pergunta_id": "f",
+            "Opcao_id": "3",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_f_4",
+            "Pergunta": "AI Generativa e LLMs para melhorar produtos externos",
+            "Parte_id": "3",
+            "Pergunta_id": "f",
+            "Opcao_id": "4",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_f_5",
+            "Pergunta": "AI Generativa e LLMs para melhorar produtos internos para os colaboradores",
+            "Parte_id": "3",
+            "Pergunta_id": "f",
+            "Opcao_id": "5",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_f_6",
+            "Pergunta": "IA Generativa e LLMs como principal frente do negócio",
+            "Parte_id": "3",
+            "Pergunta_id": "f",
+            "Opcao_id": "6",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_f_7",
+            "Pergunta": "IA Generativa e LLMs não é prioridade",
+            "Parte_id": "3",
+            "Pergunta_id": "f",
+            "Opcao_id": "7",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_f_8",
+            "Pergunta": "Não sei opinar sobre o uso de IA Generativa e LLMs na empresa",
+            "Parte_id": "3",
+            "Pergunta_id": "f",
+            "Opcao_id": "8",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_g",
+            "Pergunta": "Motivos que levam a empresa a não usar AI Genrativa e LLMs",
+            "Parte_id": "3",
+            "Pergunta_id": "g",
+            "Opcao_id": null,
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_g_1",
+            "Pergunta": "Falta de compreensão dos casos de uso",
+            "Parte_id": "3",
+            "Pergunta_id": "g",
+            "Opcao_id": "1",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_g_2",
+            "Pergunta": "Falta de confiabilidade das saídas (alucinação dos modelos",
+            "Parte_id": "3",
+            "Pergunta_id": "g",
+            "Opcao_id": "2",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_g_3",
+            "Pergunta": "Incerteza em relação a regulamentação",
+            "Parte_id": "3",
+            "Pergunta_id": "g",
+            "Opcao_id": "3",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_g_4",
+            "Pergunta": "Preocupações com segurança e privacidade de dados",
+            "Parte_id": "3",
+            "Pergunta_id": "g",
+            "Opcao_id": "4",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_g_5",
+            "Pergunta": "Retorno sobre investimento (ROI não comprovado de IA Generativa",
+            "Parte_id": "3",
+            "Pergunta_id": "g",
+            "Opcao_id": "5",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_g_6",
+            "Pergunta": "Dados da empresa não estão prontos para uso de IA Generativa",
+            "Parte_id": "3",
+            "Pergunta_id": "g",
+            "Opcao_id": "6",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_g_7",
+            "Pergunta": "Falta de expertise ou falta de recursos",
+            "Parte_id": "3",
+            "Pergunta_id": "g",
+            "Opcao_id": "7",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_g_8",
+            "Pergunta": "Alta direção da empresa não vê valor ou não vê como prioridade",
+            "Parte_id": "3",
+            "Pergunta_id": "g",
+            "Opcao_id": "8",
+            "Parte": "Desafios dos gestores de times de dados"
+        },
+        {
+            "col_id": "P3_g_9",
+            "Pergunta": "Preocupações com propriedade intelectual",
+            "Parte_id": "3",
+            "Pergunta_id": "g",
+            "Opcao_id": "9",
+            "Parte": "Desafios dos gestores de times de dados"
+        }
+    ],
+    "4": [
+        {
+            "col_id": "P4_a",
+            "Pergunta": "Mesmo que esse não seja seu cargo formal, você considera que sua atuação no dia a dia, reflete alguma das opções listadas abaixo?",
+            "Parte_id": "4",
+            "Pergunta_id": "a",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_a_1",
+            "Pergunta": "Atuacao",
+            "Parte_id": "4",
+            "Pergunta_id": "a",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_b",
+            "Pergunta": "Quais das fontes de dados listadas você já analisou ou processou no trabalho?",
+            "Parte_id": "4",
+            "Pergunta_id": "b",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_b_1",
+            "Pergunta": "Dados relacionais (estruturados em bancos SQL",
+            "Parte_id": "4",
+            "Pergunta_id": "b",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_b_2",
+            "Pergunta": "Dados armazenados em bancos NoSQL",
+            "Parte_id": "4",
+            "Pergunta_id": "b",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_b_3",
+            "Pergunta": "Imagens",
+            "Parte_id": "4",
+            "Pergunta_id": "b",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_b_4",
+            "Pergunta": "Textos/Documentos",
+            "Parte_id": "4",
+            "Pergunta_id": "b",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_b_5",
+            "Pergunta": "Vídeos",
+            "Parte_id": "4",
+            "Pergunta_id": "b",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_b_6",
+            "Pergunta": "Áudios",
+            "Parte_id": "4",
+            "Pergunta_id": "b",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_b_7",
+            "Pergunta": "Planilhas",
+            "Parte_id": "4",
+            "Pergunta_id": "b",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_b_8",
+            "Pergunta": "Dados georeferenciados",
+            "Parte_id": "4",
+            "Pergunta_id": "b",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_c",
+            "Pergunta": "Entre as fontes de dados listadas, quais você utiliza na maior parte do tempo?",
+            "Parte_id": "4",
+            "Pergunta_id": "c",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_c_1",
+            "Pergunta": "Dados relacionais (estruturados em bancos SQL",
+            "Parte_id": "4",
+            "Pergunta_id": "c",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_c_2",
+            "Pergunta": "Dados armazenados em bancos NoSQL",
+            "Parte_id": "4",
+            "Pergunta_id": "c",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_c_3",
+            "Pergunta": "Imagens",
+            "Parte_id": "4",
+            "Pergunta_id": "c",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_c_4",
+            "Pergunta": "Textos/Documentos",
+            "Parte_id": "4",
+            "Pergunta_id": "c",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_c_5",
+            "Pergunta": "Vídeos",
+            "Parte_id": "4",
+            "Pergunta_id": "c",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_c_6",
+            "Pergunta": "Áudios",
+            "Parte_id": "4",
+            "Pergunta_id": "c",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_c_7",
+            "Pergunta": "Planilhas",
+            "Parte_id": "4",
+            "Pergunta_id": "c",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_c_8",
+            "Pergunta": "Dados georeferenciados",
+            "Parte_id": "4",
+            "Pergunta_id": "c",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d",
+            "Pergunta": "Quais das linguagens listadas abaixo você utiliza no trabalho?",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_1",
+            "Pergunta": "SQL",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_2",
+            "Pergunta": "R ",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_3",
+            "Pergunta": "Python",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_4",
+            "Pergunta": "C/C++/C#",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_5",
+            "Pergunta": ".NET",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_6",
+            "Pergunta": "Java",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_7",
+            "Pergunta": "Julia",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_8",
+            "Pergunta": "SAS/Stata",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_9",
+            "Pergunta": "Visual Basic/VBA",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_10",
+            "Pergunta": "Scala",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "10",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_11",
+            "Pergunta": "Matlab",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "11",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_12",
+            "Pergunta": "Rust",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "12",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_13",
+            "Pergunta": "PHP",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "13",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_14",
+            "Pergunta": "JavaScript",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "14",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_d_15",
+            "Pergunta": "Não utilizo nenhuma linguagem",
+            "Parte_id": "4",
+            "Pergunta_id": "d",
+            "Opcao_id": "15",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_e",
+            "Pergunta": "Entre as linguagens listadas abaixo, qual é a que você mais utiliza no trabalho?",
+            "Parte_id": "4",
+            "Pergunta_id": "e",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_f",
+            "Pergunta": "Entre as linguagens listadas abaixo, qual é a sua preferida?",
+            "Parte_id": "4",
+            "Pergunta_id": "f",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g",
+            "Pergunta": "Quais dos bancos de dados/fontes de dados listados abaixo você utiliza no trabalho?",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_1",
+            "Pergunta": "MySQL",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_2",
+            "Pergunta": "Oracle",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_3",
+            "Pergunta": "SQL SERVER",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_4",
+            "Pergunta": "Amazon Aurora ou RDS",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_5",
+            "Pergunta": "DynamoDB",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_6",
+            "Pergunta": "CoachDB",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_7",
+            "Pergunta": "Cassandra",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_8",
+            "Pergunta": "MongoDB",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_9",
+            "Pergunta": "MariaDB",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_10",
+            "Pergunta": "Datomic",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "10",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_11",
+            "Pergunta": "S3",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "11",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_12",
+            "Pergunta": "PostgreSQL",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "12",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_13",
+            "Pergunta": "ElasticSearch",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "13",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_14",
+            "Pergunta": "DB2",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "14",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_15",
+            "Pergunta": "Microsoft Access",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "15",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_16",
+            "Pergunta": "SQLite",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "16",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_17",
+            "Pergunta": "Sybase",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "17",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_18",
+            "Pergunta": "Firebase",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "18",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_19",
+            "Pergunta": "Vertica",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "19",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_20",
+            "Pergunta": "Redis",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "20",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_21",
+            "Pergunta": "Neo4J",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "21",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_22",
+            "Pergunta": "Google BigQuery",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "22",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_23",
+            "Pergunta": "Google Firestore",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "23",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_24",
+            "Pergunta": "Amazon Redshift",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "24",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_25",
+            "Pergunta": "Amazon Athena",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "25",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_26",
+            "Pergunta": "Snowflake",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "26",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_27",
+            "Pergunta": "Databricks",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "27",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_28",
+            "Pergunta": "HBase",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "28",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_29",
+            "Pergunta": "Presto",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "29",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_30",
+            "Pergunta": "Splunk",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "30",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_31",
+            "Pergunta": "SAP HANA",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "31",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_32",
+            "Pergunta": "Hive",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "32",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_g_33",
+            "Pergunta": "Firebird",
+            "Parte_id": "4",
+            "Pergunta_id": "g",
+            "Opcao_id": "33",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_h",
+            "Pergunta": "Dentre as opções listadas, qual sua Cloud preferida?",
+            "Parte_id": "4",
+            "Pergunta_id": "h",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_h_1",
+            "Pergunta": "Azure (Microsoft",
+            "Parte_id": "4",
+            "Pergunta_id": "h",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_h_2",
+            "Pergunta": "Amazon Web Services (AWS",
+            "Parte_id": "4",
+            "Pergunta_id": "h",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_h_3",
+            "Pergunta": "Google Cloud (GCP",
+            "Parte_id": "4",
+            "Pergunta_id": "h",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_h_4",
+            "Pergunta": "Oracle Cloud",
+            "Parte_id": "4",
+            "Pergunta_id": "h",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_h_5",
+            "Pergunta": "IBM",
+            "Parte_id": "4",
+            "Pergunta_id": "h",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_h_6",
+            "Pergunta": "Servidores On Premise/Não utilizamos Cloud",
+            "Parte_id": "4",
+            "Pergunta_id": "h",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_h_7",
+            "Pergunta": "Cloud Própria",
+            "Parte_id": "4",
+            "Pergunta_id": "h",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_i",
+            "Pergunta": "Cloud preferida",
+            "Parte_id": "4",
+            "Pergunta_id": "i",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j",
+            "Pergunta": "Ferramenta de BI utilizada no dia a dia",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_1",
+            "Pergunta": "Microsoft PowerBI",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_2",
+            "Pergunta": "Qlik View/Qlik Sense",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_3",
+            "Pergunta": "Tableau",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_4",
+            "Pergunta": "Metabase",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_5",
+            "Pergunta": "Superset",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_6",
+            "Pergunta": "Redash",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_7",
+            "Pergunta": "Looker",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_8",
+            "Pergunta": "Looker Studio(Google Data Studio",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_9",
+            "Pergunta": "Amazon Quicksight",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_10",
+            "Pergunta": "Mode",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "10",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_11",
+            "Pergunta": "Alteryx",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "11",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_12",
+            "Pergunta": "MicroStrategy",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "12",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_13",
+            "Pergunta": "IBM Analytics/Cognos",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "13",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_14",
+            "Pergunta": "SAP Business Objects/SAP Analytics",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "14",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_15",
+            "Pergunta": "Oracle Business Intelligence",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "15",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_16",
+            "Pergunta": "Salesforce/Einstein Analytics",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "16",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_17",
+            "Pergunta": "Birst",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "17",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_18",
+            "Pergunta": "SAS Visual Analytics",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "18",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_19",
+            "Pergunta": "Grafana",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "19",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_20",
+            "Pergunta": "TIBCO Spotfire",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "20",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_21",
+            "Pergunta": "Pentaho",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "21",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_22",
+            "Pergunta": "Fazemos todas as análises utilizando apenas Excel ou planilhas do google",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "22",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_j_23",
+            "Pergunta": "Não utilizo nenhuma ferramenta de BI no trabalho",
+            "Parte_id": "4",
+            "Pergunta_id": "j",
+            "Opcao_id": "23",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_k",
+            "Pergunta": "Qual sua ferramenta de BI preferida?",
+            "Parte_id": "4",
+            "Pergunta_id": "k",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_l",
+            "Pergunta": "Qual o tipo de uso de AI Generativa e LLMs na empresa",
+            "Parte_id": "4",
+            "Pergunta_id": "l",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_l_1",
+            "Pergunta": "Colaboradores usando AI generativa de forma independente e descentralizada",
+            "Parte_id": "4",
+            "Pergunta_id": "l",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_l_2",
+            "Pergunta": "Direcionamento centralizado do uso de AI generativa",
+            "Parte_id": "4",
+            "Pergunta_id": "l",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_l_3",
+            "Pergunta": "Desenvolvedores utilizando Copilots",
+            "Parte_id": "4",
+            "Pergunta_id": "l",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_l_4",
+            "Pergunta": "AI Generativa e LLMs para melhorar produtos externos para os clientes finais",
+            "Parte_id": "4",
+            "Pergunta_id": "l",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_l_5",
+            "Pergunta": "AI Generativa e LLMs para melhorar produtos internos para os colaboradores",
+            "Parte_id": "4",
+            "Pergunta_id": "l",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_l_6",
+            "Pergunta": "IA Generativa e LLMs como principal frente do negócio",
+            "Parte_id": "4",
+            "Pergunta_id": "l",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_l_7",
+            "Pergunta": "IA Generativa e LLMs não é prioridade",
+            "Parte_id": "4",
+            "Pergunta_id": "l",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_l_8",
+            "Pergunta": "Não sei opinar sobre o uso de IA Generativa e LLMs na empresa",
+            "Parte_id": "4",
+            "Pergunta_id": "l",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_m",
+            "Pergunta": "Utiliza ChatGPT ou LLMs no trabalho?",
+            "Parte_id": "4",
+            "Pergunta_id": "m",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_m_1",
+            "Pergunta": "Não uso soluções de AI Generativa com foco em produtividade",
+            "Parte_id": "4",
+            "Pergunta_id": "m",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_m_2",
+            "Pergunta": "Uso soluções gratuitas de AI Generativa com foco em produtividade",
+            "Parte_id": "4",
+            "Pergunta_id": "m",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_m_3",
+            "Pergunta": "Uso e pago pelas soluções de AI Generativa com foco em produtividade",
+            "Parte_id": "4",
+            "Pergunta_id": "m",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_m_4",
+            "Pergunta": "A empresa que trabalho paga pelas soluções de AI Generativa com foco em produtividade",
+            "Parte_id": "4",
+            "Pergunta_id": "m",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
+            "col_id": "P4_m_5",
+            "Pergunta": "Uso soluções do tipo Copilot",
+            "Parte_id": "4",
+            "Pergunta_id": "m",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos na área de dados"
+        }
+    ],
+    "5": [
+        {
+            "col_id": "P5_a",
+            "Pergunta": "Qual seu objetivo na área de dados?",
+            "Parte_id": "5",
+            "Pergunta_id": "a",
+            "Opcao_id": null,
+            "Parte": "Objetivos na área de dados"
+        },
+        {
+            "col_id": "P5_b",
+            "Pergunta": "Qual oportunidade você está buscando?",
+            "Parte_id": "5",
+            "Pergunta_id": "b",
+            "Opcao_id": null,
+            "Parte": "Objetivos na área de dados"
+        },
+        {
+            "col_id": "P5_c",
+            "Pergunta": "Há quanto tempo você busca uma oportunidade na área de dados?",
+            "Parte_id": "5",
+            "Pergunta_id": "c",
+            "Opcao_id": null,
+            "Parte": "Objetivos na área de dados"
+        },
+        {
+            "col_id": "P5_d",
+            "Pergunta": "Como tem sido a busca por um emprego na área de dados?",
+            "Parte_id": "5",
+            "Pergunta_id": "d",
+            "Opcao_id": null,
+            "Parte": "Objetivos na área de dados"
+        }
+    ],
+    "6": [
+        {
+            "col_id": "P6_a",
+            "Pergunta": "Quais das opções abaixo fazem parte da sua rotina no trabalho atual como engenheiro de dados?",
+            "Parte_id": "6",
+            "Pergunta_id": "a",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_a_1",
+            "Pergunta": "Desenvolvo pipelines de dados utilizando linguagens de programação como Python, Scala, Java etc.",
+            "Parte_id": "6",
+            "Pergunta_id": "a",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_a_2",
+            "Pergunta": "Realizo construções de ETLs em ferramentas como Pentaho, Talend, Dataflow etc.",
+            "Parte_id": "6",
+            "Pergunta_id": "a",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_a_3",
+            "Pergunta": "Crio consultas através da linguagem SQL para exportar informações e compartilhar com as áreas de negócio.",
+            "Parte_id": "6",
+            "Pergunta_id": "a",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_a_4",
+            "Pergunta": "Atuo na integração de diferentes fontes de dados através de plataformas proprietárias como Stitch Data, Fivetran etc.",
+            "Parte_id": "6",
+            "Pergunta_id": "a",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_a_5",
+            "Pergunta": "Modelo soluções de arquitetura de dados, criando componentes de ingestão de dados, transformação e recuperação da informação.",
+            "Parte_id": "6",
+            "Pergunta_id": "a",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_a_6",
+            "Pergunta": "Desenvolvo/cuido da manutenção de repositórios de dados baseados em streaming de eventos como Data Lakes e Data Lakehouses.",
+            "Parte_id": "6",
+            "Pergunta_id": "a",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_a_7",
+            "Pergunta": "Atuo na modelagem dos dados, com o objetivo de criar conjuntos de dados como Data Warehouses, Data Marts etc.",
+            "Parte_id": "6",
+            "Pergunta_id": "a",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_a_8",
+            "Pergunta": "Cuido da qualidade dos dados, metadados e dicionário de dados.",
+            "Parte_id": "6",
+            "Pergunta_id": "a",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_a_9",
+            "Pergunta": "Nenhuma das opções listadas refletem meu dia a dia.",
+            "Parte_id": "6",
+            "Pergunta_id": "a",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b",
+            "Pergunta": "Quais as ferramentas/tecnologias de ETL que você utiliza no trabalho como Data Engineer?",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_1",
+            "Pergunta": "Scripts Python",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_2",
+            "Pergunta": "SQL & Stored Procedures",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_3",
+            "Pergunta": "Apache Airflow",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_4",
+            "Pergunta": "Apache NiFi",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_5",
+            "Pergunta": "Luigi",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_6",
+            "Pergunta": "AWS Glue",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_7",
+            "Pergunta": "Talend",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_8",
+            "Pergunta": "Pentaho",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_9",
+            "Pergunta": "Alteryx",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_10",
+            "Pergunta": "Stitch",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "10",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_11",
+            "Pergunta": "Fivetran",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "11",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_12",
+            "Pergunta": "Google Dataflow",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "12",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_13",
+            "Pergunta": "Oracle Data Integrator",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "13",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_14",
+            "Pergunta": "IBM DataStage",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "14",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_15",
+            "Pergunta": "SAP BW ETL",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "15",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_16",
+            "Pergunta": "SQL Server Integration Services (SSIS",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "16",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_17",
+            "Pergunta": "SAS Data Integration",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "17",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_18",
+            "Pergunta": "Qlik Sense",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "18",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_19",
+            "Pergunta": "Knime",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "19",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_20",
+            "Pergunta": "Databricks",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "20",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_b_21",
+            "Pergunta": "Não utilizo ferramentas de ETL",
+            "Parte_id": "6",
+            "Pergunta_id": "b",
+            "Opcao_id": "21",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_c",
+            "Pergunta": "Sua organização possui um Data Lake?",
+            "Parte_id": "6",
+            "Pergunta_id": "c",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_d",
+            "Pergunta": "Qual tecnologia utilizada como plataforma do Data Lake?",
+            "Parte_id": "6",
+            "Pergunta_id": "d",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_e",
+            "Pergunta": "Sua organização possui um Data Warehouse?",
+            "Parte_id": "6",
+            "Pergunta_id": "e",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_f",
+            "Pergunta": "Qual tecnologia utilizada como plataforma do Data Warehouse?",
+            "Parte_id": "6",
+            "Pergunta_id": "f",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_g",
+            "Pergunta": "Quais as ferramentas de gestão de Qualidade de dados, Metadados e catálogo de dados você utiliza no trabalho?",
+            "Parte_id": "6",
+            "Pergunta_id": "g",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_h",
+            "Pergunta": "Em qual das opções abaixo você gasta a maior parte do seu tempo?",
+            "Parte_id": "6",
+            "Pergunta_id": "h",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_h_1",
+            "Pergunta": "Desenvolvendo pipelines de dados utilizando linguagens de programação como Python, Scala, Java etc.",
+            "Parte_id": "6",
+            "Pergunta_id": "h",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_h_2",
+            "Pergunta": "Realizando construções de ETLs em ferramentas como Pentaho, Talend, Dataflow etc.",
+            "Parte_id": "6",
+            "Pergunta_id": "h",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_h_3",
+            "Pergunta": "Criando consultas através da linguagem SQL para exportar informações e compartilhar com as áreas de negócio.",
+            "Parte_id": "6",
+            "Pergunta_id": "h",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_h_4",
+            "Pergunta": "Atuando na integração de diferentes fontes de dados através de plataformas proprietárias como Stitch Data, Fivetran etc.",
+            "Parte_id": "6",
+            "Pergunta_id": "h",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_h_5",
+            "Pergunta": "Modelando soluções de arquitetura de dados, criando componentes de ingestão de dados, transformação e recuperação da informação.",
+            "Parte_id": "6",
+            "Pergunta_id": "h",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_h_6",
+            "Pergunta": "Desenvolvendo/cuidando da manutenção de repositórios de dados baseados em streaming de eventos como Data Lakes e Data Lakehouses.",
+            "Parte_id": "6",
+            "Pergunta_id": "h",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_h_7",
+            "Pergunta": "Atuando na modelagem dos dados, com o objetivo de criar conjuntos de dados como Data Warehouses, Data Marts etc.",
+            "Parte_id": "6",
+            "Pergunta_id": "h",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_h_8",
+            "Pergunta": "Cuidando da qualidade dos dados, metadados e dicionário de dados.",
+            "Parte_id": "6",
+            "Pergunta_id": "h",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        },
+        {
+            "col_id": "P6_h_9",
+            "Pergunta": "Nenhuma das opções listadas refletem meu dia a dia.",
+            "Parte_id": "6",
+            "Pergunta_id": "h",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos em Engenharia de Dados/DE"
+        }
+    ],
+    "7": [
+        {
+            "col_id": "P7_1",
+            "Pergunta": "Quais das opções abaixo fazem parte da sua rotina no trabalho atual com análise de dados?",
+            "Parte_id": "7",
+            "Pergunta_id": "1",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_a_1",
+            "Pergunta": "Processo e analiso dados utilizando linguagens de programação como Python, R etc.",
+            "Parte_id": "7",
+            "Pergunta_id": "a",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_a_2",
+            "Pergunta": "Realizo construções de dashboards em ferramentas de BI como PowerBI, Tableau, Looker, Qlik etc.",
+            "Parte_id": "7",
+            "Pergunta_id": "a",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_a_3",
+            "Pergunta": "Crio consultas através da linguagem SQL para exportar informações e compartilhar com as áreas de negócio.",
+            "Parte_id": "7",
+            "Pergunta_id": "a",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_a_4",
+            "Pergunta": "Utilizo APIs para extrair dados e complementar minhas análises.",
+            "Parte_id": "7",
+            "Pergunta_id": "a",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_a_5",
+            "Pergunta": "Realizo experimentos e estudos utilizando metodologias estatísticas como teste de hipótese, modelos de regressão etc.",
+            "Parte_id": "7",
+            "Pergunta_id": "a",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_a_6",
+            "Pergunta": "Desenvolvo/cuido da manutenção de ETLs utilizando tecnologias como Talend, Pentaho, Airflow, Dataflow etc.",
+            "Parte_id": "7",
+            "Pergunta_id": "a",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_a_7",
+            "Pergunta": "Atuo na modelagem dos dados, com o objetivo de criar conjuntos de dados, Data Warehouses, Data Marts etc.",
+            "Parte_id": "7",
+            "Pergunta_id": "a",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_a_8",
+            "Pergunta": "Desenvolvo/cuido da manutenção de planilhas para atender as áreas de negócio.",
+            "Parte_id": "7",
+            "Pergunta_id": "a",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_a_9",
+            "Pergunta": "Utilizo ferramentas avançadas de estatística como SASS, PSS, Stata etc",
+            "Parte_id": "7",
+            "Pergunta_id": "a",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_a_10",
+            "Pergunta": "Nenhuma das opções listadas refletem meu dia a dia.",
+            "Parte_id": "7",
+            "Pergunta_id": "a",
+            "Opcao_id": "10",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b",
+            "Pergunta": "Quais as ferramentas/tecnologias de ETL que você utiliza no trabalho como Data Analyst?",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_1",
+            "Pergunta": "Scripts Python",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_2",
+            "Pergunta": "SQL & Stored Procedures",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_3",
+            "Pergunta": "Apache Airflow",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_4",
+            "Pergunta": "Apache NiFi",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_5",
+            "Pergunta": "Luigi",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_6",
+            "Pergunta": "AWS Glue",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_7",
+            "Pergunta": "Talend",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_8",
+            "Pergunta": "Pentaho",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_9",
+            "Pergunta": "Alteryx",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_10",
+            "Pergunta": "Stitch",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "10",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_11",
+            "Pergunta": "Fivetran",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "11",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_12",
+            "Pergunta": "Google Dataflow",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "12",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_13",
+            "Pergunta": "Oracle Data Integrator",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "13",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_14",
+            "Pergunta": "IBM DataStage",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "14",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_15",
+            "Pergunta": "SAP BW ETL",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "15",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_16",
+            "Pergunta": "SQL Server Integration Services (SSIS",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "16",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_17",
+            "Pergunta": "SAS Data Integration",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "17",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_18",
+            "Pergunta": "Qlik Sense",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "18",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_19",
+            "Pergunta": "Knime",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "19",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_20",
+            "Pergunta": "Databricks",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "20",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_b_21",
+            "Pergunta": "Não utilizo ferramentas de ETL",
+            "Parte_id": "7",
+            "Pergunta_id": "b",
+            "Opcao_id": "21",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_c",
+            "Pergunta": "Sua empresa utiliza alguma das ferramentas listadas para dar mais autonomia em análise de dados para as áreas de negócio?",
+            "Parte_id": "7",
+            "Pergunta_id": "c",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_c_1",
+            "Pergunta": "Ferramentas de AutoML como H2O.ai, Data Robot, BigML etc.",
+            "Parte_id": "7",
+            "Pergunta_id": "c",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_c_2",
+            "Pergunta": "\"\"Point and Click\"\" Analytics como Alteryx, Knime, Rapidminer etc.",
+            "Parte_id": "7",
+            "Pergunta_id": "c",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_c_3",
+            "Pergunta": "Product metricts & Insights como Mixpanel, Amplitude, Adobe Analytics.",
+            "Parte_id": "7",
+            "Pergunta_id": "c",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_c_4",
+            "Pergunta": "Ferramentas de análise dentro de ferramentas de CRM como Salesforce Einstein Anaytics ou Zendesk dashboards.",
+            "Parte_id": "7",
+            "Pergunta_id": "c",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_c_5",
+            "Pergunta": "Minha empresa não utiliza essas ferramentas.",
+            "Parte_id": "7",
+            "Pergunta_id": "c",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_c_6",
+            "Pergunta": "Não sei informar.",
+            "Parte_id": "7",
+            "Pergunta_id": "c",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_d",
+            "Pergunta": "Em qual das opções abaixo você gasta a maior parte do seu tempo de trabalho?",
+            "Parte_id": "7",
+            "Pergunta_id": "d",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_d_1",
+            "Pergunta": "Processando e analisando dados utilizando linguagens de programação como Python, R etc.",
+            "Parte_id": "7",
+            "Pergunta_id": "d",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_d_2",
+            "Pergunta": "Realizando construções de dashboards em ferramentas de BI como PowerBI, Tableau, Looker, Qlik etc.",
+            "Parte_id": "7",
+            "Pergunta_id": "d",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_d_3",
+            "Pergunta": "Criando consultas através da linguagem SQL para exportar informações e compartilhar com as áreas de negócio.",
+            "Parte_id": "7",
+            "Pergunta_id": "d",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_d_4",
+            "Pergunta": "Utilizando APIs para extrair dados e complementar minhas análises.",
+            "Parte_id": "7",
+            "Pergunta_id": "d",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_d_5",
+            "Pergunta": "Realizando experimentos e estudos utilizando metodologias estatísticas como teste de hipótese, modelos de regressão etc.",
+            "Parte_id": "7",
+            "Pergunta_id": "d",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_d_6",
+            "Pergunta": "Desenvolvendo/cuidando da manutenção de ETLs utilizando tecnologias como Talend, Pentaho, Airflow, Dataflow etc.",
+            "Parte_id": "7",
+            "Pergunta_id": "d",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_d_7",
+            "Pergunta": "Atuando na modelagem dos dados, com o objetivo de criar conjuntos de dados, Data Warehouses, Data Marts etc.",
+            "Parte_id": "7",
+            "Pergunta_id": "d",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_d_8",
+            "Pergunta": "Desenvolvendo/cuidando da manutenção de planilhas do Excel ou Google Sheets para atender as áreas de negócio.",
+            "Parte_id": "7",
+            "Pergunta_id": "d",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_d_9",
+            "Pergunta": "Utilizando ferramentas avançadas de estatística como SAS, SPSS, Stata etc, para realizar análises.",
+            "Parte_id": "7",
+            "Pergunta_id": "d",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        },
+        {
+            "col_id": "P7_d_10",
+            "Pergunta": "Nenhuma das opções listadas refletem meu dia a dia.",
+            "Parte_id": "7",
+            "Pergunta_id": "d",
+            "Opcao_id": "10",
+            "Parte": "Conhecimentos em Análise de Dados/DA"
+        }
+    ],
+    "8": [
+        {
+            "col_id": "P8_a",
+            "Pergunta": "Quais das opções abaixo fazem parte da sua rotina no trabalho atual com ciência de dados?",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_a_1",
+            "Pergunta": "Estudos Ad-hoc com o objetivo de confirmar hipóteses, realizar modelos preditivos, forecasts, análise de cluster para resolver problemas pontuais e responder perguntas das áreas de negócio.",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_a_2",
+            "Pergunta": "Sou responsável pela coleta e limpeza dos dados que uso para análise e modelagem.",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_a_3",
+            "Pergunta": "Sou responsável por entrar em contato com os times de negócio para definição do problema, identificar a solução e apresentação de resultados.",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_a_4",
+            "Pergunta": "Desenvolvo modelos de Machine Learning com o objetivo de colocar em produção em sistemas (produtos de dados.",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_a_5",
+            "Pergunta": "Sou responsável por colocar modelos em produção, criar os pipelines de dados, APIs de consumo e monitoramento.",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_a_6",
+            "Pergunta": "Cuido da manutenção de modelos de Machine Learning já em produção, atuando no monitoramento, ajustes e refatoração quando necessário.",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_a_7",
+            "Pergunta": "Realizo construções de dashboards em ferramentas de BI como PowerBI, Tableau, Looker, Qlik, etc",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_a_8",
+            "Pergunta": "Utilizo ferramentas avançadas de estatística como SAS, SPSS, Stata etc, para realizar análises estatísticas e ajustar modelos.",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_a_9",
+            "Pergunta": "Crio e dou manutenção em ETLs, DAGs e automações de pipelines de dados.",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_a_10",
+            "Pergunta": "Crio e gerencio soluções de Feature Store e cultura de MLOps.",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": "10",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_a_11",
+            "Pergunta": "Sou responsável por criar e manter a infra que meus modelos e soluções rodam (clusters, servidores, API, containers, etc.",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": "11",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_a_12",
+            "Pergunta": "Treino e aplico LLMs para solucionar problemas de negócio.",
+            "Parte_id": "8",
+            "Pergunta_id": "a",
+            "Opcao_id": "12",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b",
+            "Pergunta": "Quais as técnicas e métodos listados abaixo você costuma utilizar no trabalho?",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_1",
+            "Pergunta": "Utilizo modelos de regressão (linear, logística, GLM",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_2",
+            "Pergunta": "Utilizo redes neurais ou modelos baseados em árvore para criar modelos de classificação",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_3",
+            "Pergunta": "Desenvolvo sistemas de recomendação (RecSys",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_4",
+            "Pergunta": "Utilizo métodos estatísticos Bayesianos para analisar dados",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_5",
+            "Pergunta": "Utilizo técnicas de NLP (Natural Language Processing para análisar dados não-estruturados",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_6",
+            "Pergunta": "Utilizo métodos estatísticos clássicos (Testes de hipótese, análise multivariada, sobrevivência, dados longitudinais, inferência estatistica para analisar dados",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_7",
+            "Pergunta": "Utilizo cadeias de Markov ou HMMs para realizar análises de dados",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_8",
+            "Pergunta": "Desenvolvo técnicas de Clusterização (K-means, Spectral, DBScan etc",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_9",
+            "Pergunta": "Realizo previsões através de modelos de Séries Temporais (Time Series",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_10",
+            "Pergunta": "Utilizo modelos de Reinforcement Learning (aprendizado por reforço",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "10",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_11",
+            "Pergunta": "Utilizo modelos de Machine Learning para detecção de fraude",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "11",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_12",
+            "Pergunta": "Utilizo métodos de Visão Computacional",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "12",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_13",
+            "Pergunta": "Utilizo modelos de Detecção de Churn",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "13",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_b_14",
+            "Pergunta": "Utilizo LLMs para solucionar problemas de negócio",
+            "Parte_id": "8",
+            "Pergunta_id": "b",
+            "Opcao_id": "14",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_3",
+            "Pergunta": "Quais dessas tecnologias fazem parte do seu dia a dia como cientista de dados?",
+            "Parte_id": "8",
+            "Pergunta_id": "3",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_c_1",
+            "Pergunta": "Ferramentas de BI (PowerBI, Looker, Tableau, Qlik etc",
+            "Parte_id": "8",
+            "Pergunta_id": "c",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_c_2",
+            "Pergunta": "Planilhas (Excel, Google Sheets etc",
+            "Parte_id": "8",
+            "Pergunta_id": "c",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_c_3",
+            "Pergunta": "Ambientes de desenvolvimento local (R-studio, JupyterLab, Anaconda",
+            "Parte_id": "8",
+            "Pergunta_id": "c",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_c_4",
+            "Pergunta": "Ambientes de desenvolvimento na nuvem (Google Colab, AWS Sagemaker, Kaggle Notebooks etc",
+            "Parte_id": "8",
+            "Pergunta_id": "c",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_c_5",
+            "Pergunta": "Ferramentas de AutoML (Datarobot, H2O, Auto-Keras etc",
+            "Parte_id": "8",
+            "Pergunta_id": "c",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_c_6",
+            "Pergunta": "Ferramentas de ETL (Apache Airflow, NiFi, Stitch, Fivetran, Pentaho etc",
+            "Parte_id": "8",
+            "Pergunta_id": "c",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_c_7",
+            "Pergunta": "Plataformas de Machine Learning (TensorFlow, Azure Machine Learning, Kubeflow etc",
+            "Parte_id": "8",
+            "Pergunta_id": "c",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_c_8",
+            "Pergunta": "Feature Store (Feast, Hopsworks, AWS Feature Store, Databricks Feature Store etc",
+            "Parte_id": "8",
+            "Pergunta_id": "c",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_c_9",
+            "Pergunta": "Sistemas de controle de versão (Github, DVC, Neptune, Gitlab etc",
+            "Parte_id": "8",
+            "Pergunta_id": "c",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_c_10",
+            "Pergunta": "Plataformas de Data Apps (Streamlit, Shiny, Plotly Dash etc",
+            "Parte_id": "8",
+            "Pergunta_id": "c",
+            "Opcao_id": "10",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_c_11",
+            "Pergunta": "Ferramentas de estatística avançada como SPSS, SAS, etc.",
+            "Parte_id": "8",
+            "Pergunta_id": "c",
+            "Opcao_id": "11",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d",
+            "Pergunta": "Em qual das opções abaixo você gasta a maior parte do seu tempo no trabalho?",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": null,
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d_1",
+            "Pergunta": "Estudos Ad-hoc com o objetivo de confirmar hipóteses, realizar modelos preditivos, forecasts, análise de cluster para resolver problemas pontuais e responder perguntas das áreas de negócio.",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d_2",
+            "Pergunta": "Coletando e limpando os dados que uso para análise e modelagem.",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": "2",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d_3",
+            "Pergunta": "Entrando em contato com os times de negócio para definição do problema, identificar a solução e apresentação de resultados.",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": "3",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d_4",
+            "Pergunta": "Desenvolvendo modelos de Machine Learning com o objetivo de colocar em produção em sistemas (produtos de dados.",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": "4",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d_5",
+            "Pergunta": "Colocando modelos em produção, criando os pipelines de dados, APIs de consumo e monitoramento.",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": "5",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d_6",
+            "Pergunta": "Cuidando da manutenção de modelos de Machine Learning já em produção, atuando no monitoramento, ajustes e refatoração quando necessário.",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": "6",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d_7",
+            "Pergunta": "Realizando construções de dashboards em ferramentas de BI como PowerBI, Tableau, Looker, Qlik, etc.",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": "7",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d_8",
+            "Pergunta": "Utilizando ferramentas avançadas de estatística como SAS, SPSS, Stata etc, para realizar análises.",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": "8",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d_9",
+            "Pergunta": "Criando e dando manutenção em ETLs, DAGs e automações de pipelines de dados.",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": "9",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d_10",
+            "Pergunta": "Criando e gerenciando soluções de Feature Store e cultura de MLOps.",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": "10",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d_11",
+            "Pergunta": "Criando e mantendo a infra que meus modelos e soluções rodam (clusters, servidores, API, containers, etc.",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": "11",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        },
+        {
+            "col_id": "P8_d_12",
+            "Pergunta": "Treinando e aplicando LLMs para solucionar problemas de negócio.",
+            "Parte_id": "8",
+            "Pergunta_id": "d",
+            "Opcao_id": "12",
+            "Parte": "Conhecimentos em Ciências de Dados/DS"
+        }
+    ]
+}
