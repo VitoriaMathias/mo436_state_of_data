@@ -431,6 +431,14 @@
             }
         },
         {
+            "col_id": "P4_a2",
+            "Pergunta": "Atuacao",
+            "Parte_id": "4",
+            "Pergunta_id": "a",
+            "Opcao_id": "1",
+            "Parte": "Conhecimentos na área de dados"
+        },
+        {
             "col_id": "P4_b",
             "Pergunta": "Quais das fontes de dados listadas você já analisou ou processou no trabalho?",
             "Parte_id": "4",
