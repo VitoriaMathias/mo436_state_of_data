@@ -6,10 +6,15 @@
             "Parte_id": "1",
             "Pergunta_id": "a", 
             "Opcao_id": null,
-            "Parte": "Dados demográficos",
-            "possiveis_respostas": {
-                "P1_a_1": "Faixa idade"
-            }
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_a_1",
+            "Pergunta": "Faixa idade",
+            "Parte_id": "1",
+            "Pergunta_id": "a1",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
         },
         {
             "col_id": "P1_b",
@@ -82,11 +87,23 @@
             "Parte_id": "1",
             "Pergunta_id": "i",
             "Opcao_id": null,
-            "Parte": "Dados demográficos",
-            "possiveis_respostas": {
-                "P1_i_1": "uf onde mora",
-                "P1_i_2": "Regiao onde mora"
-            }
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_i_1",
+            "Pergunta": "uf onde mora",
+            "Parte_id": "1",
+            "Pergunta_id": "i1",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
+        },
+        {
+            "col_id": "P1_i_2",
+            "Pergunta": "Regiao onde mora",
+            "Parte_id": "1",
+            "Pergunta_id": "i2",
+            "Opcao_id": null,
+            "Parte": "Dados demográficos"
         },
         {
             "col_id": "P1_j",
