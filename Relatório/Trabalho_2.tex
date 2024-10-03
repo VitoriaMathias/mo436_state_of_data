@@ -1,0 +1,272 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{State of Data Brazil 2023 - Model}
+
+\author{\IEEEauthorblockN{Adriel Bombonato Guidini Godinho}
+\IEEEauthorblockA{\textit{Institute of Computing} \\
+\textit{University of Campinas}\\
+Campinas, SP, Brasil \\
+291654}
+\and
+\IEEEauthorblockN{André Cheker Burihan}
+\IEEEauthorblockA{\textit{Institute of Computing} \\
+\textit{University of Campinas}\\
+Campinas, SP, Brasil \\
+194071}
+\and
+\IEEEauthorblockN{Vitória Maria Carneiro Mathias}
+\IEEEauthorblockA{\textit{Gleb Wataghin Institute of Physics} \\
+\textit{University of Campinas}\\
+Campinas, SP, Brasil \\
+188526}
+}
+
+\maketitle
+
+\begin{abstract}
+RESUMO
+\end{abstract}
+
+\begin{IEEEkeywords}
+fairness, machine learning, salary prediction, data science, job market.
+\end{IEEEkeywords}
+
+\section{Introduction}
+Introduction
+
+\section{Literature Review}
+Necessário??
+
+\section{Objective}
+The aim of the project is to build a machine learning model that predicts a fair salary for individuals in the data science industry. The model will address and mitigate biases related to gender, race, geography, and socioeconomic status, ensuring that predictions are fair and reflect the true value of each individual's experience, skills, and qualifications.
+
+INSERIR METRICAS DE AVALIAÇÃO (técnicas ou não)
+
+\section{Preprocessing}
+The raw dataset contains three main types of survey responses represented on each of the columns:
+\begin{enumerate}
+    \item Responses containing real numbers, like age. The corresponding columns are int type where each row is a different number;
+    \item Alternatives with single choice for selection. For this type of response, the respective columns contained each alternative represented by a string; 
+    \item Multiple choice questions. For this type of response, there is a column for the main question holder(e.g. "P1\_a"), where each row contains a string with the choices selected separated by a comma. There is also unique columns for all the multiple choices(e.g. "P1\_a\_1", "P1\_a\_2"), containing a boolean that indicates if the choice was selected or not.
+\end{enumerate}
+Since most of the columns in the dataset were of string type, we undertook a normalization process across the entire dataset to remove special characters. Additionally, manual inspection was necessary for columns containing questions that unfolded into multiple-choice options, where each option was represented as a new boolean column. 
+
+However, it was observed that this relationship was not always consistent—sometimes the main question column contained responses in string format, while the associated multiple-choice columns were left empty. To address this, we used regular expressions (regex) to properly split the string responses into corresponding multiple-choice columns.
+
+Another step involved dropping rows where the target variable (salary range) was missing, as these entries would not contribute to the model.
+
+Following this initial cleanup, we split the data into training and test sets to prevent data leakage. We then performed encoding on the categorical columns. With the assistance of a language model (LLM), we identified the most relevant questions for training and determined which columns would be suitable for One Hot Encoding and Ordinal Encoding.
+
+Lastly, we applied oversampling on the gender, age, and race classes to ensure that the model would not develop bias due to imbalanced class representation in these variables.
+
+\section{Metrics}
+Metrics for the technical evaluation of the model were based on Accuracy, Precision, Recall, and F1-Score. These metrics were chosen because they provide a simple but comprehensive view of the model's performance. 
+
+
+Accuracy	Precision	Recall	F1-Score
+
+\section{Feature Engineering}
+For the feature engineering phase, we selected the most relevant columns for the model. We used a language model (LLM) to identify the most important questions for predicting salary. We then mannualy selected the columns that were most relevant to the target variable and encoded it with together with columns that contained sensitive information. The sensitive information was removed during the training phase to ensure that the model would not develop bias based on these variables, but they were used in a separate training session to verify the difference in performance between the models with and without sensitive information.
+
+\section{Modeling}
+For the modeling phase, we selected four different machine learning algorithms: Quadratic Discriminant Analysis (QDA), Logistic Regression, K-Nearest Neighbors (KNN), and Decision Tree. We chose these algorithms because they are well-suited for classification tasks and have different complexities, which allows us to compare their performance in terms of fairness and accuracy.
+
+For plug-in algorithms, we used QDA and KNN, which are simple models that assume a Gaussian distribution for the data. For risk minimization algorithms, we used Logistic Regression and Decision Tree, which try to infer the decision boundary directly from the data.
+
+\subsection{QDA - Smoother decision boundary with Plug-in}
+For QDA, an implementation on the scikit-learn library was used. The model was trained using the following hyperparameters: 
+\begin{itemize}
+    \item reg\_param: 0.0
+    \item store\_covariance: True
+    \item tol: 0.0001
+    \item priors: None
+    \item var\_smoothing: 1e-09
+    \item n\_components: None
+\end{itemize}
+
+\subsection{Logistic Regression - Smoother decision boundary with Risk Minimization}
+Logistic Regression, also using the scikit-learn library, was trained with the following hyperparameters:
+\begin{itemize}
+    \item penalty: l2
+    \item dual: False
+    \item tol: 0.0001
+    \item C: 1.0
+    \item fit\_intercept: True
+    \item intercept\_scaling: 1
+    \item class\_weight: None
+    \item random\_state: None
+    \item solver: lbfgs
+    \item max\_iter: 100
+    \item multi\_class: auto
+    \item verbose: 0
+    \item warm\_start: False
+    \item n\_jobs: None
+    \item l1\_ratio: None
+\end{itemize}
+
+\subsection{KNN - Intense variation on decision boundary with Plug-in}
+For KNN, we used the scikit-learn library with the following hyperparameters:
+
+\begin{itemize}
+    \item n\_neighbors: 5
+    \item weights: uniform
+    \item algorithm: auto
+    \item leaf\_size: 30
+    \item p: 2
+    \item metric: minkowski
+    \item metric\_params: None
+    \item n\_jobs: None
+\end{itemize}
+
+
+\subsection{DecisionTree - Intense variation on decision boundary with Risk Minimization}
+For Decision Tree, we used the scikit-learn library with the following hyperparameters:
+
+\begin{itemize}
+    \item criterion: gini
+    \item splitter: best
+    \item max\_depth: None
+    \item min\_samples\_split: 2
+    \item min\_samples\_leaf: 1
+    \item min\_weight\_fraction\_leaf: 0.0
+    \item max\_features: None
+    \item random\_state: None
+    \item max\_leaf\_nodes: None
+    \item min\_impurity\_decrease: 0.0
+    \item min\_impurity\_split: None
+    \item class\_weight: None
+    \item ccp\_alpha: 0.0
+\end{itemize}
+
+\section{Evaluation}
+\section{Conclusion}
+
+\section{Model Card}
+
+% Each section is supposed to be brief, in the form of a bullet list.
+% This environment formats the lists in each model card section in a compact format to help
+% the card fit into the recommended "one to two pages".
+\newenvironment{mcsection}[1]
+    {%
+        \textbf{#1}
+
+        % Reduce margins to use the space more effectively and help fit in the recommended "one to two pages"
+        % Use the bullet list format as shown in the model card paper to increase readability
+        \begin{itemize}[leftmargin=*,topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex,after=\vspace{\medskipamount}]
+    }
+    {%
+        \end{itemize}
+    }
+
+% Optional: reduce margins single line to fit in "one to two pages", as recommended
+\begin{adjustwidth}{-60pt}{-30pt}
+\begin{singlespace}
+
+\tcbset{colback=white!10!white}
+\begin{tcolorbox}[title=\textbf{Model Card - CheXNet},
+    breakable, sharp corners, boxrule=0.7pt]
+
+% Change to a smaller, but still legible font size to help fit in the recommended "one to two pages"
+\small{
+
+Refer to section 4.1 of the \href{https://arxiv.org/abs/1810.03993}{model card paper } -- remove this line after filling in this section.
+
+\begin{mcsection}{Model Details}
+    \item Detail 1...
+    \item Detail 2...
+\end{mcsection}
+
+Refer to section 4.2 of the \href{https://arxiv.org/abs/1810.03993}{model card paper } -- remove this line after filling in this section.
+
+\begin{mcsection}{Intended Use}
+    \item Intended use 1...
+\end{mcsection}
+
+Refer to section 4.3 of the \href{https://arxiv.org/abs/1810.03993}{model card paper } -- remove this line after filling in this section.
+
+\begin{mcsection}{Factors}
+    \item Factors 1...
+\end{mcsection}
+
+Refer to section 4.4 of the \href{https://arxiv.org/abs/1810.03993}{model card paper } -- remove this line after filling in this section.
+
+\begin{mcsection}{Metrics}
+    \item Metrics 1....
+\end{mcsection}
+
+Refer to section 4.5 of the \href{https://arxiv.org/abs/1810.03993}{model card paper } -- remove this line after filling in this section.
+
+\begin{mcsection}{Evaluation Data}
+    \item Evaluation data 1...
+\end{mcsection}
+
+Refer to section 4.6 of the \href{https://arxiv.org/abs/1810.03993}{model card paper } -- remove this line after filling in this section.
+
+\begin{mcsection}{Training Data}
+    \item Training data 1...
+\end{mcsection}
+
+\pagebreak
+
+Refer to section 4.8 of the \href{https://arxiv.org/abs/1810.03993}{model card paper } -- remove this line after filling in this section.
+
+\begin{mcsection}{Ethical Considerations}
+    \item Ethical considerations 1....
+\end{mcsection}
+
+Refer to section 4.9 of the \href{https://arxiv.org/abs/1810.03993}{model card paper } -- remove this line after filling in this section.
+
+\begin{mcsection}{Caveats and Recommendations}
+    \item Caveats and recommendations 1...
+\end{mcsection}
+
+Refer to section 4.7 of the \href{https://arxiv.org/abs/1810.03993}{model card paper } -- remove this line after filling in this section.
+
+\textbf{Quantitative Analyses}
+
+% Sample table inside tcolorbox
+\begin{table}[H]
+\centering
+\small{
+\begin{tabular}{lr}
+Measurement 1       & 0.751  \\
+Measurement 2       & 0.762 \\
+Measurement 3       & 0.773 \\
+Measurement 4       & 0.784 \\
+Measurement average & 0.768  \\ \hline
+\textbf{Model measurement}  & \textbf{0.791} \\ \hline
+\end{tabular} } \\
+\caption[Short caption used in list of tables.]{\small{Longer caption to explain what the measurements are.}}
+\end{table}
+
+} % end font size change
+\end{tcolorbox}
+\end{singlespace}
+\end{adjustwidth}
+
+\begin{thebibliography}{00}
+\bibitem{StateOfData} “State of Data Brazil 2023.” Accessed: Sep. 10, 2024. [Online]. Available: https://www.kaggle.com/datasets/datahackers/state-of-data-brazil-2023
+\bibitem{Martn2018SalaryPI} I. Martín, A. Mariello, R. Battiti, and J. A. Hernández, ‘Salary Prediction in the IT Job Market with Few High-Dimensional Samples: A Spanish Case Study’, Int. J. Comput. Intell. Syst., vol. 11, pp. 1192–1209, 2018.
+\bibitem{He2019CareerTP} M. He, D. Shen, Y. Zhu, R. He, T. Wang, and Z. Zhang, ‘Career Trajectory Prediction based on CNN’, 2019 IEEE International Conference on Service Operations and Logistics, and Informatics (SOLI), pp. 22–26, 2019.
+\bibitem{Khongchai2016RandomFF} P. Khongchai and P. Songmuang, ‘Random Forest for Salary Prediction System to Improve Students’ Motivation’, 2016 12th International Conference on Signal-Image Technology \& Internet-Based Systems (SITIS), pp. 637–642, 2016.
+\bibitem{Khongchai2016RandomFF} X. Liu, ‘Salary Grades Prediction Using Machine Learning’, Applied and Computational Engineering, 2023.
+\bibitem{Feng2023ComparisonOD} Z. Feng, Z. Liu, and Y. Yin, ‘Comparison of deep-learning and conventional machine learning algorithms for salary prediction’, Applied and Computational Engineering, 2023.
+\bibitem{Jiang2022GeneralizedDP} Z. Jiang, X. Han, C. Fan, F. Yang, A. Mostafavi, and X. Hu, ‘Generalized Demographic Parity for Group Fairness’, in International Conference on Learning Representations, 2022.
+\bibitem{ibge} IGBE, 'Domicílios improvisados e coletivos', https://censo2022.ibge.gov.br/panorama/ (accessed Sept. 10, 2024)
+\end{thebibliography}
+
+\end{document}
+
+
+
